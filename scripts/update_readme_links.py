@@ -6,11 +6,47 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / 'data'
 README = ROOT / 'README.md'
 HOT = ROOT / 'data' / 'hot.json'
 BRIEFING = ROOT / 'data' / 'briefing.json'
 RISING = ROOT / 'data' / 'rising.json'
 META = ROOT / 'data' / 'meta.json'
+
+# (徽章标签, 分类入口标签, 数据文件)
+COUNT_TARGETS = (
+    ('工具', 'AI工具', 'tools.json'),
+    ('模型', 'AI模型', 'models.json'),
+    ('Agent', 'AI Agent', 'agents.json'),
+    ('新闻', 'AI新闻', 'news.json'),
+    ('提供商', 'AI提供商', 'providers.json'),
+)
+
+
+def _count_items(filename):
+    path = DATA_DIR / filename
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text(encoding='utf-8'))
+    if isinstance(data, dict):
+        data = data.get('items') or []
+    return len(data) if isinstance(data, list) else None
+
+
+def _sync_counts(text):
+    """刷新 README 顶部的数量徽章和分类入口数字。
+
+    这些数字原先写死在 README 里，长期与数据脱节
+    （模型徽章停在 87 时 models.json 已有 399 条），这里按数据文件同步。
+    """
+    for badge_label, entry_label, filename in COUNT_TARGETS:
+        count = _count_items(filename)
+        if count is None:
+            continue
+        text = re.sub(rf'(badge/{re.escape(badge_label)}-)\d+', rf'\g<1>{count}', text)
+        # 分类入口形如 "- [🛠️ AI工具（171）](...)"，标签前还有 emoji，不能锚定方括号
+        text = re.sub(rf'({re.escape(entry_label)}（)\d+(）)', rf'\g<1>{count}\g<2>', text)
+    return text
 
 
 def _clean_hot_summary(item):
@@ -41,6 +77,7 @@ def update_readme_links():
     meta = json.loads(META.read_text(encoding='utf-8')) if META.exists() else {}
     last_update = meta.get('last_update') or datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S")
     text = re.sub(r'🕐 \*\*最近更新\*\*：.*', f'🕐 **最近更新**：{last_update}', text)
+    text = _sync_counts(text)
 
     hot_lines = ['## 🔥 今日热点', '']
     for rank, item in enumerate(items[:10], start=1):
