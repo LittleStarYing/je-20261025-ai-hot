@@ -90,8 +90,61 @@ class CuratedOutputRegressionTests(unittest.TestCase):
 
     def test_models_required_by_quality_gate_present(self):
         blobs = [f"{i['name']} {i['url']}".lower() for i in self._items()]
-        for key in ('gpt-5', 'glm-5.2', 'minimax-m3', 'qwen3.7'):
+        for key in ('gpt-5', 'glm-5.3', 'minimax-m3', 'qwen3.8'):
             self.assertTrue(any(key in b for b in blobs), f'缺少 required 模型: {key}')
+
+
+class FindSupersededItemsTests(unittest.TestCase):
+    """写死 id 的条目不会自动跟进发版，检测要准确报出来且不误报。"""
+
+    def _map(self, *entries):
+        return {
+            mid: {'id': mid, 'name': name, 'created': created}
+            for mid, name, created in entries
+        }
+
+    def test_flags_same_product_line_newer_version(self):
+        models = self._map(
+            ('anthropic/claude-opus-4.8', 'Anthropic: Claude Opus 4.8', 100),
+            ('anthropic/claude-opus-5', 'Anthropic: Claude Opus 5', 200),
+        )
+        items = [{'name': 'Claude Opus 4.8', 'url': 'https://openrouter.ai/anthropic/claude-opus-4.8'}]
+        stale = gcm.find_superseded_items(items, models)
+        self.assertEqual(len(stale), 1)
+        self.assertIn('claude-opus-5', stale[0])
+
+    def test_does_not_flag_different_product_line(self):
+        # Kimi K2.7 Code 是编码专用线，K3 是通用线，不能算作它的新版
+        models = self._map(
+            ('moonshotai/kimi-k2.7-code', 'MoonshotAI: Kimi K2.7 Code', 100),
+            ('moonshotai/kimi-k3', 'MoonshotAI: Kimi K3', 200),
+        )
+        items = [{'name': 'Kimi K2.7 Code', 'url': 'https://openrouter.ai/moonshotai/kimi-k2.7-code'}]
+        self.assertEqual(gcm.find_superseded_items(items, models), [])
+
+    def test_does_not_flag_batch_variant(self):
+        models = self._map(
+            ('openai/gpt-6-astra', 'OpenAI: GPT-6 Astra', 100),
+            ('openai/gpt-6-astra:batch', 'OpenAI: GPT-6 Astra (batch)', 200),
+        )
+        items = [{'name': 'GPT-6 Astra', 'url': 'https://openrouter.ai/openai/gpt-6-astra'}]
+        self.assertEqual(gcm.find_superseded_items(items, models), [])
+
+    def test_ignores_non_openrouter_items(self):
+        items = [{'name': 'Qwen3.8-27B', 'url': 'https://huggingface.co/Qwen/Qwen3.8-27B'}]
+        self.assertEqual(gcm.find_superseded_items(items, {}), [])
+
+    def test_current_shipped_list_has_no_superseded_entries(self):
+        """守住已发布的榜单：不应再有同产品线的新版本可用。"""
+        snapshot = json.loads(
+            (ROOT / 'data' / 'openrouter_models_snapshot.json').read_text(encoding='utf-8')
+        )
+        models = snapshot if isinstance(snapshot, list) else snapshot.get('data', [])
+        openrouter_map = {m['id']: m for m in models}
+        items = json.loads(
+            (ROOT / 'data' / 'models_curated.json').read_text(encoding='utf-8')
+        )['items']
+        self.assertEqual(gcm.find_superseded_items(items, openrouter_map), [])
 
 
 if __name__ == '__main__':

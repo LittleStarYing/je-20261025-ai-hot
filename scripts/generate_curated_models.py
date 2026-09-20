@@ -3,6 +3,7 @@
 
 import json
 import os
+import re
 import urllib.request
 from datetime import datetime, timezone
 
@@ -29,17 +30,17 @@ CATEGORY_ORDER = [
 CURATED_ITEMS = [
     # 顶级通用
     {'category': 'top', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'base', 'label': '综合王者', 'why': 'OpenAI 最新一线通用主力，推理、写作、执行力都很强'},
-    {'category': 'top', 'source': 'openrouter', 'id': 'anthropic/claude-opus-4.8', 'label': '长文与复杂任务', 'why': 'Anthropic 最新旗舰，复杂任务稳定性强，长上下文和专业写作很能打'},
-    {'category': 'top', 'source': 'openrouter', 'id': 'z-ai/glm-5.2', 'label': '国产主力', 'why': '智谱最新一代通用模型，2026-06-16 发布，更新积极'},
-    {'category': 'top', 'source': 'openrouter-latest', 'provider_prefix': 'deepseek', 'family': 'deepseek-v', 'variant': 'pro', 'label': '国产旗舰', 'why': 'DeepSeek 最新 V 系列主力，热度、上下文和性价比都应放主榜'},
+    {'category': 'top', 'source': 'openrouter', 'id': 'anthropic/claude-fable-5.1', 'label': '长文与复杂任务', 'why': 'Anthropic 当前旗舰，2026-09-01 发布，复杂任务稳定性强，长上下文和专业写作很能打'},
+    {'category': 'top', 'source': 'openrouter', 'id': 'z-ai/glm-5.3', 'label': '国产主力', 'why': '智谱当前一代通用模型，2026-08-18 发布，编程能力较 5.2 明显提升'},
+    {'category': 'top', 'source': 'openrouter', 'id': 'deepseek/deepseek-v4.1-flash', 'label': '国产旗舰', 'why': 'DeepSeek 当前主力：官方已把 V4-Pro 的请求全部路由到 V4.1-Flash，速度与性价比更优'},
     {'category': 'top', 'source': 'openrouter', 'id': 'minimax/minimax-m3', 'label': '国产长上下文主力', 'why': 'MiniMax 最新 M3，2026-05-31 发布，国产一线主力'},
-    {'category': 'top', 'source': 'openrouter', 'id': 'qwen/qwen3.7-plus', 'label': '国产编码主力', 'why': '通义千问最新 3.7 Plus，2026-06-03 发布，代码与通用兼顾'},
-    {'category': 'top', 'source': 'openrouter', 'id': 'google/gemini-3.5-flash', 'label': '谷歌新锐', 'why': 'Google 最新 Gemini 3.5 Flash，2026-05-19 发布，速度快能力强'},
+    {'category': 'top', 'source': 'openrouter', 'id': 'qwen/qwen3.8-max-0902', 'label': '国产编码主力', 'why': '通义千问当前旗舰，2026-09-03 的 3.8 Max 快照，1M 上下文，代码与通用兼顾'},
+    {'category': 'top', 'source': 'openrouter', 'id': 'google/gemini-3.8-flash', 'label': '谷歌新锐', 'why': 'Google 当前最新 Flash 线，2026-09-02 发布，速度快、单价低'},
 
     # 编程
     {'category': 'coding', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'pro', 'label': '重度编码', 'why': 'OpenAI 最新 Pro 线，适合复杂工程任务和严肃编程场景'},
-    {'category': 'coding', 'source': 'openrouter', 'id': 'anthropic/claude-sonnet-4.6', 'label': '开发者高频', 'why': 'Claude Code 生态热门底座，真实开发采用广'},
-    {'category': 'coding', 'source': 'openrouter', 'id': 'moonshotai/kimi-k2.7-code', 'label': 'Kimi 编程新锐', 'why': '月之暗面最新 K2.7 Code，2026-06-12 发布，专注编程场景'},
+    {'category': 'coding', 'source': 'openrouter', 'id': 'anthropic/claude-sonnet-5', 'label': '开发者高频', 'why': 'Claude Code 生态当前底座，2026-06-30 发布，真实开发采用广'},
+    {'category': 'coding', 'source': 'openrouter', 'id': 'moonshotai/kimi-k2.7-code', 'label': 'Kimi 编程线', 'why': '月之暗面编码专用线当前版本（2026-06-12），通用旗舰 K3 见开源榜'},
     {'category': 'coding', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3-Coder-Next', 'label': '开源代码旗舰', 'why': '开源阵营里实用度高，开发者关注度高'},
 
     # 多模态
@@ -52,29 +53,28 @@ CURATED_ITEMS = [
     {'category': 'image', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'image', 'label': '最新 GPT 图像', 'why': 'OpenAI 最新图像生成模型，文字渲染和综合生成能力都很强'},
     {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/Tongyi-MAI/Z-Image-Turbo', 'label': '开源生图新主力', 'why': '通义新一代开源生图模型，是当前开源图像方向更值得看的一档'},
     {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev', 'label': '编辑工作流主力', 'why': 'Kontext 系列更贴近当前图像编辑与工作流场景，实用性高'},
-    {'category': 'image', 'source': 'manual', 'name': 'Gemini 3 Pro Image', 'provider': 'Google', 'url': 'https://openrouter.ai/google/gemini-3-pro-image-preview', 'freshness': '2026-04-22', 'badge': '谷歌图像新主力', 'why': 'Google 最新图像生成方向主力，国内用户视角不能缺这条线', 'meta': 'OpenRouter 预览模型', 'tags': ['图像生成']},
-    {'category': 'image', 'source': 'manual', 'name': 'Gemini 3.1 Flash Image', 'provider': 'Google', 'url': 'https://openrouter.ai/google/gemini-3.1-flash-image-preview', 'freshness': '2026-04-22', 'badge': '轻量图像快模', 'why': '适合轻量快速出图与产品化场景，是当前值得关注的新线', 'meta': 'OpenRouter 预览模型', 'tags': ['图像生成']},
+    {'category': 'image', 'source': 'openrouter', 'id': 'google/gemini-3-pro-image', 'label': '谷歌图像主力', 'why': 'Nano Banana Pro，Google 图像生成主力线，国内用户视角不能缺'},
+    {'category': 'image', 'source': 'openrouter', 'id': 'google/gemini-3.1-flash-image', 'label': '轻量图像快模', 'why': 'Nano Banana 2，适合轻量快速出图与产品化场景'},
 
     # 视频生成
-    {'category': 'video', 'source': 'manual', 'name': 'Seedance 2.0', 'provider': 'ByteDance Seed', 'url': 'https://seed.bytedance.com/en/seedance2_0', 'freshness': '2026-04-22', 'badge': '最新视频王炸', 'why': '字节最新视频模型，当前就该放进视频主榜', 'meta': '官方发布', 'tags': ['视频生成', '原生音频']},
-    {'category': 'video', 'source': 'manual', 'name': 'Kling AI', 'provider': '快手可灵', 'url': 'https://app.klingai.com/global/', 'freshness': '2026-04-22', 'badge': '国内视频主力', 'why': '国内用户实际使用面很大，视频生成主榜必须有可灵', 'meta': '官网可用', 'tags': ['视频生成']},
-    {'category': 'video', 'source': 'manual', 'name': 'Runway Gen-4', 'provider': 'Runway', 'url': 'https://runwayml.com/research/introducing-gen-4/', 'freshness': '2026-04-22', 'badge': '国际视频主力', 'why': '国际视频生成标杆之一，行业心智很强', 'meta': '官方发布', 'tags': ['视频生成']},
-    {'category': 'video', 'source': 'huggingface', 'url': 'https://huggingface.co/Lightricks/LTX-2.3', 'label': '视频生成新锐', 'why': '视频方向里热度较高，值得盯着看'},
+    {'category': 'video', 'source': 'manual', 'name': 'Seedance 2.5', 'provider': 'ByteDance Seed', 'url': 'https://seed.bytedance.com/', 'freshness': '', 'badge': '最新视频王炸', 'why': '字节当前视频主力，2026-08 上线，单次可生成 30 秒连续片段', 'meta': '官方发布', 'tags': ['视频生成', '原生音频']},
+    {'category': 'video', 'source': 'manual', 'name': 'Kling 3.0', 'provider': '快手可灵', 'url': 'https://app.klingai.com/global/', 'freshness': '', 'badge': '国内视频主力', 'why': '可灵当前 3.0，智能分镜与原生音画同步，国内使用面很大', 'meta': '官网可用', 'tags': ['视频生成']},
+    {'category': 'video', 'source': 'manual', 'name': 'Runway Gen-4.5', 'provider': 'Runway', 'url': 'https://runway.com/research/introducing-runway-gen-4.5', 'freshness': '', 'badge': '国际视频主力', 'why': 'Runway 当前最新视频模型，运动质量与提示遵循度都有提升', 'meta': '官方发布', 'tags': ['视频生成']},
+    {'category': 'video', 'source': 'huggingface', 'url': 'https://huggingface.co/Lightricks/LTX-2.5', 'label': '开源视频新锐', 'why': 'Lightricks 当前开源视频线，2026-08 发布，开源阵营里热度最高的一档'},
 
     # 开源旗舰（只放当前代际仍在被广泛采用的开源模型，换代后被替换）
     {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3.8-27B', 'label': '开源通用王者', 'why': 'Qwen 当前代际开源主力，点赞与采用度都是新模型里最高的一档'},
     {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/moonshotai/Kimi-K3', 'label': '开源新热门', 'why': '月之暗面最新开源线，讨论度与关注度都很高'},
-    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro', 'label': '开源推理主力', 'why': 'DeepSeek 当前开源旗舰，推理与通用能力仍在第一梯队'},
+    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash', 'label': '开源推理主力', 'why': 'DeepSeek 开源线当前主力（V4-Pro 已被官方路由到 V4.1-Flash）'},
     {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/openai/gpt-oss-120b', 'label': 'OpenAI 开源线', 'why': 'OpenAI 的开放权重模型，社区采用面很大'},
     {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/microsoft/VibeVoice-ASR', 'label': '语音识别新标杆', 'why': '接替 Whisper 成为当前开源 ASR 里更值得看的一档'},
 
     # 新锐关注
     {'category': 'watch', 'source': 'openrouter', 'id': 'openrouter/fusion', 'label': 'OpenRouter 新线', 'why': 'OpenRouter 自研 Fusion 模型，2026-06-13 发布，值得关注'},
     {'category': 'watch', 'source': 'openrouter', 'id': 'stepfun/step-3.7-flash', 'label': '阶跃星辰新锐', 'why': '阶跃星辰最新 Step 3.7 Flash，2026-05-28 发布'},
-    {'category': 'watch', 'source': 'openrouter', 'id': 'nvidia/nemotron-3-ultra-550b-a55b', 'label': 'NVIDIA 新动向', 'why': 'NVIDIA 最新 Nemotron 3 Ultra，2026-06-04 发布'},
-    {'category': 'watch', 'source': 'openrouter', 'id': 'qwen/qwen3.7-max', 'label': 'Qwen 新旗舰', 'why': '通义千问最新 3.7 Max，2026-05-21 发布'},
-    {'category': 'watch', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3.6-35B-A3B', 'label': 'Qwen 新代际', 'why': 'Qwen 新代际开源模型，热度上升中'},
-    {'category': 'watch', 'source': 'huggingface', 'url': 'https://huggingface.co/Lightricks/LTX-2.3', 'label': '视频生成新锐', 'why': '视频方向里热度较高，值得盯着看'},
+    {'category': 'watch', 'source': 'openrouter', 'id': 'nvidia/nemotron-3.5-lightning', 'label': 'NVIDIA 新动向', 'why': 'NVIDIA 最新开源线，2026-08-11 发布，面向常驻 Agent 场景'},
+    {'category': 'watch', 'source': 'openrouter', 'id': 'z-ai/glm-5.3-flashx', 'label': '国产最新发布', 'why': '智谱 2026-09-18 刚发布的 FlashX 线，值得盯着看'},
+    {'category': 'watch', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3.8-Flash-Next', 'label': 'Qwen 新代际', 'why': 'Qwen3.8 开源线里最新发布的一档，热度上升中'},
 ]
 
 BANNED_HF_AUTHORS = {
@@ -270,6 +270,44 @@ def archive_superseded_openrouter_specs(specs, openrouter_map):
         archived.append(spec)
     return archived
 
+def _variant_signature(model_id):
+    """抹掉版本号，只保留厂商与产品线结构，用于判断两个模型是否属于同一条线。
+    claude-opus-4.8 与 claude-opus-5 同为 claude-opus-；
+    gemini-3.5-flash 与 gemini-3.8-flash 同为 gemini--flash。
+    """
+    return re.sub(r'\d+(\.\d+)*', '', model_id.split('/')[-1].lower())
+
+
+def find_superseded_items(items, openrouter_map):
+    """列出已被同厂商同产品线更新版本取代的榜单条目。
+
+    openrouter-latest 槽位会自动跟进厂商发版，写死 id 的条目不会；
+    每轮生成时把这类条目报出来，避免榜单悄悄停在旧版本。
+    """
+    stale = []
+    for item in items:
+        url = item.get('url') or ''
+        if 'openrouter.ai/' not in url:
+            continue
+        mid = url.split('openrouter.ai/', 1)[1]
+        current = openrouter_map.get(mid)
+        if not current:
+            continue
+        provider = mid.split('/')[0]
+        signature = _variant_signature(mid)
+        newer = [
+            model for model in openrouter_map.values()
+            if model['id'].startswith(provider + '/')
+            and _variant_signature(model['id']) == signature
+            and (model.get('created') or 0) > (current.get('created') or 0)
+            and not any(k in model['id'].lower() for k in NON_MODEL_VARIANT_KEYWORDS)
+        ]
+        if newer:
+            newest = max(newer, key=lambda model: model.get('created') or 0)
+            stale.append(f"{item['name']} → {newest['id']} ({fmt_date(newest.get('created'))})")
+    return stale
+
+
 def auto_discovery_series_key(model_id, model):
     low = f"{model_id} {(model.get('name') or '')}".lower()
     prefix = model_id.split('/')[0] if '/' in model_id else model_id
@@ -447,6 +485,12 @@ def generate_curated_models():
         deduped.append(item)
     items = deduped
 
+    superseded = find_superseded_items(items, openrouter_map)
+    if superseded:
+        print(f'  ⚠️ {len(superseded)} 条已被同厂商更新版本取代，建议跟进：')
+        for line in superseded[:8]:
+            print(f'     - {line}')
+
     out = {
         'updated_at': datetime.now().isoformat(),
         'total': len(items),
@@ -466,7 +510,10 @@ def generate_curated_models():
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
-    return f'生成精选模型榜单 {len(items)} 条'
+    summary = f'生成精选模型榜单 {len(items)} 条'
+    if superseded:
+        summary += f'（{len(superseded)} 条待跟进新版）'
+    return summary
 
 
 if __name__ == '__main__':

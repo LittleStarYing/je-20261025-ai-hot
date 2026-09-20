@@ -163,12 +163,13 @@ def check_models_curated(errors):
     names = [str(x.get('name') or '') for x in items]
     urls = [str(x.get('url') or '') for x in items]
     blobs = [f"{n} {u}".lower() for n, u in zip(names, urls)]
-    required = ['gpt-5', 'glm-5.2', 'minimax-m3', 'qwen3.7']
+    # 与精选榜同步的「必须存在」关键字，精选榜换代时一起改
+    required = ['gpt-5', 'glm-5.3', 'minimax-m3', 'qwen3.8']
     for key in required:
         if not any(key in b for b in blobs):
             errors.append(f'models missing required hot model: {key}')
 
-    stale_patterns = [r'deepseek-v3\.2', r'qwen3\.5', r'mimo-32b']
+    stale_patterns = [r'deepseek-v3\.2', r'qwen3\.5', r'qwen3\.7', r'mimo-32b', r'claude-opus-4']
     stale_hits = []
     for b, n in zip(blobs, names):
         if any(re.search(p, b) for p in stale_patterns):
