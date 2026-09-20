@@ -1,47 +1,5 @@
 [
   {
-    "id": "github-65600975",
-    "name": "pytorch/pytorch",
-    "url": "https://github.com/pytorch/pytorch",
-    "status": 429,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-770153867",
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-    "status": 429,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-1200597263",
-    "name": "Graphify-Labs/graphify",
-    "url": "https://github.com/Graphify-Labs/graphify",
-    "status": 429,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-langchain",
-    "name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "status": 429,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-669879380",
-    "name": "rasbt/LLMs-from-scratch",
-    "url": "https://github.com/rasbt/LLMs-from-scratch",
-    "status": 429,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-881458615",
-    "name": "browser-use/browser-use",
-    "url": "https://github.com/browser-use/browser-use",
-    "status": 429,
-    "file": "projects.json"
-  },
-  {
     "id": "github-343965132",
     "name": "microsoft/ML-For-Beginners",
     "url": "https://github.com/microsoft/ML-For-Beginners",
@@ -809,6 +767,48 @@
     "name": "Windsurf",
     "url": "https://codeium.com/windsurf",
     "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "status": 403,
     "file": "tools.json"
   },
   {

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-20 03:52:19
+🕐 **最近更新**：2026-09-20 10:39:30
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [谷歌的 Gemini 是攻击其他公司的最新人工智能模型](https://aihot.bt199.com/news/c67b3655b36c/)
-   - 谷歌表示，Gemini 立即结束了每次黑客攻击，“采取了适当的行动”
+1. [特朗普表示是时候用新名称重新命名人工智能了——他还正在创建一支人工智能部队](https://aihot.bt199.com/news/c0e5bbea1628/)
+   - 特朗普在没有证据的情况下声称，人工智能的强烈反对是民主党的骗局
    - `TechCrunch AI · 2026-09-19`
 
-2. [人工智能安全对话变得令人难以置信](https://aihot.bt199.com/news/f48af8241edf/)
-   - 本周，两场有关人工智能安全的对话疯传，这表明辨别人工智能的事实与虚构是多么困难
-   - `TechCrunch AI · 2026-09-19`
+2. [Meta 的 Muse 令人毛骨悚然，但原因也许不是你想象的那样](https://aihot.bt199.com/news/45d620b21da1/)
+   - Meta 的 Muse 显然是一个有效的人工智能助手，但有点令人毛骨悚然。部分原因在于它的新 Mac 应用程序，它可以访…
+   - `The Verge AI · 2026-09-19`
 
 3. [双子座作恶，黑了三家公司，谷歌隐藏了](https://aihot.bt199.com/news/28713f5bdfe9/)
    - 今年 5 月，Gemini 突破遏制并攻击了三家不同的公司，但直到《华尔街日报》联系该公司后，谷歌才披露了这一事件。黑客…
    - `The Verge AI · 2026-09-19`
 
-4. [人工智能是否需要反垄断豁免，这样它就不会杀死所有人？？？](https://aihot.bt199.com/news/0dd3f3fb6a5b/)
-   - 今天，我们在 Decoder 上播出了关于商业未来的两部分系列中的第一部分，我正在与拜登政府的美国司法部前反垄断负责人乔…
-   - `The Verge AI · 2026-09-19`
-
-5. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
+4. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能真的会杀死我们所有人吗？您的…
    - `MIT Tech Review · 2026-09-18`
 
-6. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
+5. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
    - 周三，《麻省理工科技评论》为订阅者举办了一场现场圆桌会议，提出了每个人现在都在问的问题：人工智能真的会杀死我们所有人吗？…
    - `MIT Tech Review · 2026-09-18`
 
-7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
+
+9. [据报道，Flock 试图通过员工买断来缩减劳动力规模](https://aihot.bt199.com/news/194c7523c48f/)
+   - 如果没有收购，弗洛克“几乎肯定”需要裁员
+   - `TechCrunch AI · 2026-09-19`
 
 10. [使用人工智能水印时，法学硕士对有害提示的反应不同](https://aihot.bt199.com/news/35cb1838bc98/)
    - SynthID 可能会导致模型遵循原本会拒绝的有害指令
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
