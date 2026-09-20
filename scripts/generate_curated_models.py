@@ -41,7 +41,6 @@ CURATED_ITEMS = [
     {'category': 'coding', 'source': 'openrouter', 'id': 'anthropic/claude-sonnet-4.6', 'label': '开发者高频', 'why': 'Claude Code 生态热门底座，真实开发采用广'},
     {'category': 'coding', 'source': 'openrouter', 'id': 'moonshotai/kimi-k2.7-code', 'label': 'Kimi 编程新锐', 'why': '月之暗面最新 K2.7 Code，2026-06-12 发布，专注编程场景'},
     {'category': 'coding', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3-Coder-Next', 'label': '开源代码旗舰', 'why': '开源阵营里实用度高，开发者关注度高'},
-    {'category': 'coding', 'source': 'huggingface', 'url': 'https://huggingface.co/moonshotai/Kimi-K2.6', 'label': '中文代码协作', 'why': '中文理解、长上下文协作和最近热度都很强'},
 
     # 多模态
     {'category': 'multimodal', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'image', 'label': '图文一体', 'why': 'OpenAI 最新图像/多模态模型，适合复杂多模态工作流'},
@@ -51,7 +50,7 @@ CURATED_ITEMS = [
 
     # 图像生成
     {'category': 'image', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'image', 'label': '最新 GPT 图像', 'why': 'OpenAI 最新图像生成模型，文字渲染和综合生成能力都很强'},
-    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-dev', 'label': '开源生图旗舰', 'why': 'FLUX.1-dev 仍是国内用户最熟、最常用的一线开源生图主力'},
+    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/Tongyi-MAI/Z-Image-Turbo', 'label': '开源生图新主力', 'why': '通义新一代开源生图模型，是当前开源图像方向更值得看的一档'},
     {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev', 'label': '编辑工作流主力', 'why': 'Kontext 系列更贴近当前图像编辑与工作流场景，实用性高'},
     {'category': 'image', 'source': 'manual', 'name': 'Gemini 3 Pro Image', 'provider': 'Google', 'url': 'https://openrouter.ai/google/gemini-3-pro-image-preview', 'freshness': '2026-04-22', 'badge': '谷歌图像新主力', 'why': 'Google 最新图像生成方向主力，国内用户视角不能缺这条线', 'meta': 'OpenRouter 预览模型', 'tags': ['图像生成']},
     {'category': 'image', 'source': 'manual', 'name': 'Gemini 3.1 Flash Image', 'provider': 'Google', 'url': 'https://openrouter.ai/google/gemini-3.1-flash-image-preview', 'freshness': '2026-04-22', 'badge': '轻量图像快模', 'why': '适合轻量快速出图与产品化场景，是当前值得关注的新线', 'meta': 'OpenRouter 预览模型', 'tags': ['图像生成']},
@@ -62,12 +61,12 @@ CURATED_ITEMS = [
     {'category': 'video', 'source': 'manual', 'name': 'Runway Gen-4', 'provider': 'Runway', 'url': 'https://runwayml.com/research/introducing-gen-4/', 'freshness': '2026-04-22', 'badge': '国际视频主力', 'why': '国际视频生成标杆之一，行业心智很强', 'meta': '官方发布', 'tags': ['视频生成']},
     {'category': 'video', 'source': 'huggingface', 'url': 'https://huggingface.co/Lightricks/LTX-2.3', 'label': '视频生成新锐', 'why': '视频方向里热度较高，值得盯着看'},
 
-    # 开源旗舰
-    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen2.5-72B-Instruct', 'label': '开源通用王者', 'why': '采用广、能力稳、社区影响力大'},
-    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/deepseek-ai/DeepSeek-V3', 'label': '开源推理主力', 'why': '开源通用模型里非常有代表性'},
-    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct', 'label': '生态基座', 'why': 'Llama 生态广，真实使用面极大'},
-    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/openai/whisper-large-v3', 'label': '语音识别标杆', 'why': 'ASR 领域真正长期被广泛采用的主力'},
-    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/moonshotai/Kimi-K2.6', 'label': '开源新热门', 'why': '近期讨论度与关注度都很高'},
+    # 开源旗舰（只放当前代际仍在被广泛采用的开源模型，换代后被替换）
+    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3.8-27B', 'label': '开源通用王者', 'why': 'Qwen 当前代际开源主力，点赞与采用度都是新模型里最高的一档'},
+    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/moonshotai/Kimi-K3', 'label': '开源新热门', 'why': '月之暗面最新开源线，讨论度与关注度都很高'},
+    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro', 'label': '开源推理主力', 'why': 'DeepSeek 当前开源旗舰，推理与通用能力仍在第一梯队'},
+    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/openai/gpt-oss-120b', 'label': 'OpenAI 开源线', 'why': 'OpenAI 的开放权重模型，社区采用面很大'},
+    {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/microsoft/VibeVoice-ASR', 'label': '语音识别新标杆', 'why': '接替 Whisper 成为当前开源 ASR 里更值得看的一档'},
 
     # 新锐关注
     {'category': 'watch', 'source': 'openrouter', 'id': 'openrouter/fusion', 'label': 'OpenRouter 新线', 'why': 'OpenRouter 自研 Fusion 模型，2026-06-13 发布，值得关注'},
@@ -136,9 +135,14 @@ def fmt_date(ts):
     return datetime.fromtimestamp(ts, tz=timezone.utc).strftime('%Y-%m-%d')
 
 
-def clean_name(name):
-    prefixes = ['OpenAI: ', 'Anthropic: ', 'Google: ', 'DeepSeek: ', 'Qwen: ', 'Baidu: ', 'ByteDance Seed: ', 'MoonshotAI: ', 'Z.ai: ', 'MiniMax: ', 'Xiaomi: ', 'Mistral: ', 'Meta: ', 'xAI: ', 'NVIDIA: ', 'Amazon: ']
+def clean_name(name, provider=None):
+    # OpenRouter 的模型名会带 "<厂商>: " 前缀，例如 "OpenRouter: Fusion"、
+    # "StepFun: Step 3.7 Flash"。按实际 provider 剥离可覆盖任意厂商，
+    # 不必维护固定前缀列表。
     out = name or ''
+    if provider and out.lower().startswith(provider.lower() + ':'):
+        out = out[len(provider) + 1:]
+    prefixes = ['OpenAI: ', 'Anthropic: ', 'Google: ', 'DeepSeek: ', 'Qwen: ', 'Baidu: ', 'ByteDance Seed: ', 'MoonshotAI: ', 'Z.ai: ', 'MiniMax: ', 'Xiaomi: ', 'Mistral: ', 'Meta: ', 'xAI: ', 'NVIDIA: ', 'Amazon: ']
     for p in prefixes:
         if out.startswith(p):
             out = out[len(p):]
@@ -166,6 +170,11 @@ ARCHIVE_VARIANT_KEYWORDS = {
 
 STALE_VARIANT_KEYWORDS = ['mini', 'nano', 'chat', 'audio', 'codex', 'flash']
 
+# OpenRouter 用 ":batch" 表示批量 API 变体（离线批处理、单价更低），它不是独立
+# 模型。这些变体的 created 时间常常不晚于标准版，按时间倒序会被误当成「最新
+# 模型」选进榜单，所以任何槽位都要提前排除。
+NON_MODEL_VARIANT_KEYWORDS = [':batch', '(batch)']
+
 
 def openrouter_created(model):
     return model.get('created') or 0
@@ -184,6 +193,8 @@ def resolve_latest_openrouter_id(openrouter_map, provider_prefix, family='gpt', 
         if not low_id.startswith(provider_prefix + '/'):
             continue
         if family not in blob:
+            continue
+        if any(k in blob for k in NON_MODEL_VARIANT_KEYWORDS):
             continue
         if variant == 'base' and any(k in blob for k in STALE_VARIANT_KEYWORDS + ['pro', 'image']):
             continue
@@ -346,11 +357,12 @@ def format_context_meta(context_length):
 def build_item(spec, openrouter_map, hf_map):
     if spec['source'] == 'openrouter':
         model = openrouter_map[spec['id']]
+        provider = provider_label_from_model(model)
         item = {
             'category': spec['category'],
             'source': 'OpenRouter',
-            'name': clean_name(model.get('name') or spec['id']),
-            'provider': (model.get('name') or spec['id']).split(':')[0],
+            'name': clean_name(model.get('name') or spec['id'], provider),
+            'provider': provider,
             'url': f"https://openrouter.ai/{spec['id']}",
             'freshness': fmt_date(model.get('created')),
             'badge': spec['label'],
@@ -422,6 +434,18 @@ def generate_curated_models():
             items.append(build_item(spec, openrouter_map, hf_map))
         except KeyError:
             continue
+
+    # 同一个模型可能被多个分类引用（例如 OpenAI 图像模型同时属于多模态和图像），
+    # 按分类顺序去重，避免同一张卡片在页面上出现两次。
+    seen_urls = set()
+    deduped = []
+    for item in items:
+        url = item.get('url')
+        if url in seen_urls:
+            continue
+        seen_urls.add(url)
+        deduped.append(item)
+    items = deduped
 
     out = {
         'updated_at': datetime.now().isoformat(),

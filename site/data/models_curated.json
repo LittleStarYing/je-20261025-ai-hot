@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-20T15:12:54.754057",
-  "total": 36,
+  "updated_at": "2026-09-21T00:21:20.910503",
+  "total": 33,
   "categories": [
     {
       "id": "top",
@@ -12,7 +12,7 @@
       "id": "coding",
       "name": "💻 编程最强模型",
       "subtitle": "写代码、改代码、做 Agent 开发最常用的一批模型",
-      "count": 5
+      "count": 4
     },
     {
       "id": "multimodal",
@@ -24,7 +24,7 @@
       "id": "image",
       "name": "🎨 图像生成主力",
       "subtitle": "当前最常用、效果最稳的一线生图模型",
-      "count": 4
+      "count": 3
     },
     {
       "id": "video",
@@ -42,16 +42,16 @@
       "id": "watch",
       "name": "🧪 值得关注的新锐模型",
       "subtitle": "还在快速爬升、值得盯着看的新一代模型",
-      "count": 7
+      "count": 6
     }
   ],
   "items": [
     {
       "category": "top",
       "source": "OpenRouter",
-      "name": "GPT-6 Astra (batch)",
+      "name": "GPT-6 Astra",
       "provider": "OpenAI",
-      "url": "https://openrouter.ai/openai/gpt-6-astra:batch",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
       "freshness": "2026-09-04",
       "badge": "综合王者",
       "why": "OpenAI 最新一线通用主力，推理、写作、执行力都很强",
@@ -98,9 +98,9 @@
     {
       "category": "top",
       "source": "OpenRouter",
-      "name": "DeepSeek V4 Pro 0813 (batch)",
+      "name": "DeepSeek V4 Pro 0813",
       "provider": "DeepSeek",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813:batch",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "freshness": "2026-08-12",
       "badge": "国产旗舰",
       "why": "DeepSeek 最新 V 系列主力，热度、上下文和性价比都应放主榜",
@@ -166,9 +166,9 @@
     {
       "category": "coding",
       "source": "OpenRouter",
-      "name": "GPT-6 Astra Pro (batch)",
+      "name": "GPT-6 Astra Pro",
       "provider": "OpenAI",
-      "url": "https://openrouter.ai/openai/gpt-6-astra-pro:batch",
+      "url": "https://openrouter.ai/openai/gpt-6-astra-pro",
       "freshness": "2026-09-04",
       "badge": "重度编码",
       "why": "OpenAI 最新 Pro 线，适合复杂工程任务和严肃编程场景",
@@ -228,21 +228,6 @@
         "文本"
       ],
       "icon_url": "https://huggingface.co/Qwen.png"
-    },
-    {
-      "category": "coding",
-      "source": "HuggingFace",
-      "name": "Kimi-K2.6",
-      "provider": "moonshotai",
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
-      "freshness": "2026-04-14",
-      "badge": "中文代码协作",
-      "why": "中文理解、长上下文协作和最近热度都很强",
-      "meta": "❤️ 599",
-      "tags": [
-        "多模态"
-      ],
-      "icon_url": "https://huggingface.co/moonshotai.png"
     },
     {
       "category": "multimodal",
@@ -311,35 +296,18 @@
     },
     {
       "category": "image",
-      "source": "OpenRouter",
-      "name": "GPT-5.4 Image 2",
-      "provider": "OpenAI",
-      "url": "https://openrouter.ai/openai/gpt-5.4-image-2",
-      "freshness": "2026-04-21",
-      "badge": "最新 GPT 图像",
-      "why": "OpenAI 最新图像生成模型，文字渲染和综合生成能力都很强",
-      "meta": "272K 上下文",
-      "tags": [
-        "多模态",
-        "文本",
-        "图像"
-      ],
-      "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
-    },
-    {
-      "category": "image",
       "source": "HuggingFace",
-      "name": "FLUX.1-dev",
-      "provider": "black-forest-labs",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-      "freshness": "2024-07-31",
-      "badge": "开源生图旗舰",
-      "why": "FLUX.1-dev 仍是国内用户最熟、最常用的一线开源生图主力",
-      "meta": "❤️ 12685",
+      "name": "Z-Image-Turbo",
+      "provider": "Tongyi-MAI",
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+      "freshness": "2025-11-25",
+      "badge": "开源生图新主力",
+      "why": "通义新一代开源生图模型，是当前开源图像方向更值得看的一档",
+      "meta": "❤️ 4488",
       "tags": [
         "图像生成"
       ],
-      "icon_url": "https://huggingface.co/black-forest-labs.png"
+      "icon_url": "https://huggingface.co/Tongyi-MAI.png"
     },
     {
       "category": "image",
@@ -435,28 +403,43 @@
     {
       "category": "open",
       "source": "HuggingFace",
-      "name": "Qwen2.5-72B",
+      "name": "Qwen3.8-27B",
       "provider": "Qwen",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
-      "freshness": "",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "freshness": "2026-08-05",
       "badge": "开源通用王者",
-      "why": "采用广、能力稳、社区影响力大",
-      "meta": "❤️ 6200",
+      "why": "Qwen 当前代际开源主力，点赞与采用度都是新模型里最高的一档",
+      "meta": "❤️ 8612",
       "tags": [
-        "文本"
+        "多模态"
       ],
       "icon_url": "https://huggingface.co/Qwen.png"
     },
     {
       "category": "open",
       "source": "HuggingFace",
-      "name": "DeepSeek-V3",
+      "name": "Kimi-K3",
+      "provider": "moonshotai",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "freshness": "2026-06-13",
+      "badge": "开源新热门",
+      "why": "月之暗面最新开源线，讨论度与关注度都很高",
+      "meta": "❤️ 5518",
+      "tags": [
+        "多模态"
+      ],
+      "icon_url": "https://huggingface.co/moonshotai.png"
+    },
+    {
+      "category": "open",
+      "source": "HuggingFace",
+      "name": "DeepSeek-V4-Pro",
       "provider": "deepseek-ai",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
-      "freshness": "",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "freshness": "2026-04-22",
       "badge": "开源推理主力",
-      "why": "开源通用模型里非常有代表性",
-      "meta": "❤️ 5800",
+      "why": "DeepSeek 当前开源旗舰，推理与通用能力仍在第一梯队",
+      "meta": "❤️ 4297",
       "tags": [
         "文本"
       ],
@@ -465,52 +448,37 @@
     {
       "category": "open",
       "source": "HuggingFace",
-      "name": "Llama-3.1-8B-Instruct",
-      "provider": "meta-llama",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "freshness": "2024-07-18",
-      "badge": "生态基座",
-      "why": "Llama 生态广，真实使用面极大",
-      "meta": "❤️ 5738",
+      "name": "gpt-oss-120b",
+      "provider": "openai",
+      "url": "https://huggingface.co/openai/gpt-oss-120b",
+      "freshness": "2025-08-04",
+      "badge": "OpenAI 开源线",
+      "why": "OpenAI 的开放权重模型，社区采用面很大",
+      "meta": "❤️ 4806",
       "tags": [
         "文本"
-      ],
-      "icon_url": "https://huggingface.co/meta-llama.png"
-    },
-    {
-      "category": "open",
-      "source": "HuggingFace",
-      "name": "Whisper Large V3",
-      "provider": "openai",
-      "url": "https://huggingface.co/openai/whisper-large-v3",
-      "freshness": "",
-      "badge": "语音识别标杆",
-      "why": "ASR 领域真正长期被广泛采用的主力",
-      "meta": "❤️ 5500",
-      "tags": [
-        "语音识别"
       ],
       "icon_url": "https://huggingface.co/openai.png"
     },
     {
       "category": "open",
       "source": "HuggingFace",
-      "name": "Kimi-K2.6",
-      "provider": "moonshotai",
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
-      "freshness": "2026-04-14",
-      "badge": "开源新热门",
-      "why": "近期讨论度与关注度都很高",
-      "meta": "❤️ 599",
+      "name": "VibeVoice-ASR",
+      "provider": "microsoft",
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR",
+      "freshness": "2026-01-21",
+      "badge": "语音识别新标杆",
+      "why": "接替 Whisper 成为当前开源 ASR 里更值得看的一档",
+      "meta": "❤️ 1093",
       "tags": [
-        "多模态"
+        "语音识别"
       ],
-      "icon_url": "https://huggingface.co/moonshotai.png"
+      "icon_url": "https://huggingface.co/microsoft.png"
     },
     {
       "category": "watch",
       "source": "OpenRouter",
-      "name": "OpenRouter: Fusion",
+      "name": "Fusion",
       "provider": "OpenRouter",
       "url": "https://openrouter.ai/openrouter/fusion",
       "freshness": "2026-06-13",
@@ -525,7 +493,7 @@
     {
       "category": "watch",
       "source": "OpenRouter",
-      "name": "StepFun: Step 3.7 Flash",
+      "name": "Step 3.7 Flash",
       "provider": "StepFun",
       "url": "https://openrouter.ai/stepfun/step-3.7-flash",
       "freshness": "2026-05-28",
@@ -584,21 +552,6 @@
         "多模态"
       ],
       "icon_url": "https://huggingface.co/Qwen.png"
-    },
-    {
-      "category": "watch",
-      "source": "HuggingFace",
-      "name": "LTX-2.3",
-      "provider": "Lightricks",
-      "url": "https://huggingface.co/Lightricks/LTX-2.3",
-      "freshness": "2026-03-04",
-      "badge": "视频生成新锐",
-      "why": "视频方向里热度较高，值得盯着看",
-      "meta": "❤️ 1021",
-      "tags": [
-        "视频生成"
-      ],
-      "icon_url": "https://huggingface.co/Lightricks.png"
     },
     {
       "category": "watch",
