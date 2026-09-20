@@ -32,12 +32,12 @@
     <!-- 今日热点 -->
     <div class="card" style="border-color:var(--accent)">
         <div class="card-title">🔥 今日热点 <span class="hot-badge fire">每6h更新</span></div>
-        {{ $hot := site.Data.hot }}
+        {{ $hot := hugo.Data.hot }}
         {{ if $hot }}
             {{ $items := $hot.items }}
             {{ if not $items }}{{ $items = $hot.top_20 }}{{ end }}
             {{ if not $items }}{{ $items = $hot.hot_list }}{{ end }}
-            {{ $newsData := site.Data.news }}
+            {{ $newsData := hugo.Data.news }}
             {{ range $index, $item := $items }}
             {{ $itemUrl := $item.url | default "" }}
             {{ $itemUrlNorm := replaceRE "/$" "" $itemUrl }}
@@ -104,7 +104,7 @@
     <!-- 最新新闻 (穿插显示，不按来源堆积) -->
     <div class="card">
         <div class="card-title">📰 AI 新闻</div>
-        {{ $news := site.Data.news }}
+        {{ $news := hugo.Data.news }}
         {{ if $news }}
             {{ $count := 0 }}
             {{ range $news }}
@@ -144,7 +144,7 @@
 <!-- 侧边栏 -->
 <div>
     <!-- 每日 AI 快报 -->
-    {{ $briefing := site.Data.briefing }}
+    {{ $briefing := hugo.Data.briefing }}
     {{ if $briefing }}
     <div class="card" style="border-left:3px solid var(--accent);background:linear-gradient(180deg,rgba(255,107,53,.06),rgba(255,255,255,0))">
         <div class="card-title">🤖 每日 AI 快报 <span class="hot-badge fire">AI 生成</span></div>
@@ -152,14 +152,14 @@
             {{ with $briefing.emoji }}{{ . }} {{ end }}{{ $briefing.content }}
         </div>
         <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px;font-size:11px;color:var(--text3)">
-            <span>基于 {{ $briefing.news_count }} 条新闻 · {{ with $briefing.date }}{{ . }}{{ else }}{{ substr site.Data.meta.last_update 0 10 }}{{ end }}</span>
+            <span>基于 {{ $briefing.news_count }} 条新闻 · {{ with $briefing.date }}{{ . }}{{ else }}{{ substr hugo.Data.meta.last_update 0 10 }}{{ end }}</span>
             <a href="{{ relURL "/news/" }}" style="color:var(--accent);text-decoration:none">查看新闻 →</a>
         </div>
     </div>
     {{ end }}
 
     <!-- 每日精选 -->
-    {{ $daily := site.Data.daily }}
+    {{ $daily := hugo.Data.daily }}
     {{ if $daily }}
     <div class="spotlight">
         <div style="font-size:13px;color:var(--text2);margin-bottom:8px">⭐ 今日精选 - {{ $daily.date }}</div>
@@ -176,7 +176,7 @@
 
     <!-- 热度飙升 -->
     <div class="card">
-        {{ $rising := site.Data.rising }}
+        {{ $rising := hugo.Data.rising }}
         <div class="card-title">📈 热度飙升{{ with $rising.window_days }} <span class="hot-badge">近{{ . }}天</span>{{ end }}</div>
         {{ if and $rising $rising.items }}
             {{ range $rising.items }}
@@ -205,11 +205,11 @@
     <div class="card home-hidden-block" style="display:none">
         <div class="card-title">📂 分类导航</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
-            <a href="{{ relURL "/tools/" }}" class="tag">🛠️ AI工具 ({{ len site.Data.tools }})</a>
-            <a href="{{ relURL "/models/" }}" class="tag">🧠 AI模型 ({{ len site.Data.models }})</a>
-            <a href="{{ relURL "/agents/" }}" class="tag">🤖 AI Agent ({{ len site.Data.agents }})</a>
-            <a href="{{ relURL "/news/" }}" class="tag">📰 AI新闻 ({{ len site.Data.news }})</a>
-            <a href="{{ relURL "/providers/" }}" class="tag">🏢 提供商 ({{ len site.Data.providers }})</a>
+            <a href="{{ relURL "/tools/" }}" class="tag">🛠️ AI工具 ({{ len hugo.Data.tools }})</a>
+            <a href="{{ relURL "/models/" }}" class="tag">🧠 AI模型 ({{ len hugo.Data.models }})</a>
+            <a href="{{ relURL "/agents/" }}" class="tag">🤖 AI Agent ({{ len hugo.Data.agents }})</a>
+            <a href="{{ relURL "/news/" }}" class="tag">📰 AI新闻 ({{ len hugo.Data.news }})</a>
+            <a href="{{ relURL "/providers/" }}" class="tag">🏢 提供商 ({{ len hugo.Data.providers }})</a>
         </div>
     </div>
 
@@ -249,7 +249,7 @@
     <!-- 新收录 -->
     <div class="card">
         <div class="card-title">🆕 新收录</div>
-        {{ $tools := site.Data.tools }}
+        {{ $tools := hugo.Data.tools }}
         {{ if $tools }}
             {{ $totalTools := len $tools }}
             {{ range seq 1 5 }}
@@ -269,16 +269,23 @@
         {{ end }}
     </div>
 
-    <!-- 本周变化 -->
-    <div class="card" id="weeklyDigest" style="display:none;border-left:3px solid var(--green)">
+    <!-- 本周变化（服务端渲染统计，避免为取长度把整个 news.json 内嵌进 HTML） -->
+    {{ $weeklyTools := hugo.Data.tools }}
+    {{ $weeklyTrending := 0 }}
+    {{ $weeklyFree := 0 }}
+    {{ range $weeklyTools }}
+    {{ if .trending }}{{ $weeklyTrending = add $weeklyTrending 1 }}{{ end }}
+    {{ with .free_quota }}{{ if in (printf "%v" .) "免费" }}{{ $weeklyFree = add $weeklyFree 1 }}{{ end }}{{ end }}
+    {{ end }}
+    <div class="card" id="weeklyDigest" style="border-left:3px solid var(--green)">
         <div class="card-title">📊 本周摘要</div>
-        <div id="weeklyContent" style="font-size:13px;color:var(--text2);line-height:1.8"></div>
+        <div id="weeklyContent" style="font-size:13px;color:var(--text2);line-height:1.8">📊 收录 <strong style="color:var(--accent)">{{ len hugo.Data.tools }}</strong> 个 AI 工具 · <strong style="color:var(--accent)">{{ len hugo.Data.models }}</strong> 个模型 · <strong style="color:var(--accent)">{{ len hugo.Data.news }}</strong> 条新闻<br>🔥 其中 <strong>{{ $weeklyTrending }}</strong> 个热门工具 · 🎁 <strong>{{ $weeklyFree }}</strong> 个有免费额度<br>📰 每6小时自动更新，数据开源透明</div>
     </div>
 
     <!-- 实时关键词 -->
     <div class="card">
         <div class="card-title">🔑 热搜关键词</div>
-        {{ $seo := site.Data.seo }}
+        {{ $seo := hugo.Data.seo }}
         {{ if $seo }}
             <div style="display:flex;flex-wrap:wrap;gap:6px">
                 {{ range first 5 $seo.hot_keywords }}
@@ -295,7 +302,7 @@
     <!-- 更新日志 -->
     <div class="card">
         <div class="card-title">🕐 更新状态</div>
-        {{ $meta := site.Data.meta }}
+        {{ $meta := hugo.Data.meta }}
         {{ if $meta }}
         <div style="font-size:13px;color:var(--text2)">
             <p>🕐 最后更新：{{ $meta.last_update }}</p>
@@ -310,11 +317,31 @@
 </div>
 
 <script>
-function randomTool() {
-    const tools = {{ site.Data.tools | jsonify | safeJS }} || [];
-    const models = {{ site.Data.models | jsonify | safeJS }} || [];
-    const agents = {{ site.Data.agents | jsonify | safeJS }} || [];
-    const all = [...tools, ...models, ...agents];
+// 搜索/随机推荐数据改为异步加载：把完整的 news.json 内嵌进 HTML 会让首页膨胀到 70MB
+let searchData = { tools: [], models: [], agents: [], news: [] };
+let searchIndexPromise = null;
+function ensureSearchIndex() {
+    if (!searchIndexPromise) {
+        searchIndexPromise = fetch('{{ "search-index.json" | relURL }}')
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(data => {
+                searchData = Object.assign({ tools: [], models: [], agents: [], news: [] }, data || {});
+                return searchData;
+            })
+            .catch(err => {
+                console.warn('搜索索引加载失败:', err);
+                return searchData;
+            });
+    }
+    return searchIndexPromise;
+}
+// 页面空闲时预热，用户点开搜索时数据通常已就绪
+if (document.readyState === 'complete') { ensureSearchIndex(); }
+else { window.addEventListener('load', ensureSearchIndex); }
+
+async function randomTool() {
+    const data = await ensureSearchIndex();
+    const all = [...(data.tools || []), ...(data.models || []), ...(data.agents || [])];
     if(all.length === 0) return;
     const item = all[Math.floor(Math.random() * all.length)];
     const name = item.display_name || item.name;
@@ -328,14 +355,7 @@ function randomTool() {
         '</div>';
 }
 
-// 搜索功能
-const searchData = {
-    tools: {{ site.Data.tools | jsonify | safeJS }} || [],
-    models: {{ site.Data.models | jsonify | safeJS }} || [],
-    agents: {{ site.Data.agents | jsonify | safeJS }} || [],
-    news: {{ site.Data.news | jsonify | safeJS }} || []
-};
-
+// 搜索功能（searchData 由 ensureSearchIndex() 异步填充）
 function searchAll(query) {
     if (!query || query.trim().length === 0) return [];
     const q = query.toLowerCase().trim();
@@ -361,7 +381,7 @@ function searchAll(query) {
     searchData.agents.forEach(item => {
         const text = [item.name, item.description, item.type, item.pricing].join(' ').toLowerCase();
         if (text.includes(q)) {
-            results.push({ type: 'agent', emoji: '🤖', name: item.name, desc: item.description, url: 'https://' + item.url, price: item.pricing });
+            results.push({ type: 'agent', emoji: '🤖', name: item.name, desc: item.description, url: item.url, price: item.pricing });
         }
     });
 
@@ -412,7 +432,9 @@ let searchTimeout;
 document.getElementById('searchInput').addEventListener('input', function(e) {
     clearTimeout(searchTimeout);
     const query = e.target.value;
-    searchTimeout = setTimeout(() => {
+    ensureSearchIndex();
+    searchTimeout = setTimeout(async () => {
+        await ensureSearchIndex();
         const results = searchAll(query);
         renderSearchResults(results);
     }, 200); // 200ms 防抖
@@ -487,28 +509,6 @@ document.getElementById('searchInput').addEventListener('keydown', function(e) {
         div.innerHTML = '<div style="font-size:48px;margin-bottom:12px">🎉</div><div style="font-size:20px;font-weight:700;color:var(--accent);margin-bottom:8px">' + milestone + '</div><div style="font-size:13px;color:var(--text2);margin-bottom:16px">感谢你的持续关注！</div><button onclick="this.parentElement.remove()" style="padding:8px 24px;background:var(--accent);border:none;border-radius:6px;color:#fff;cursor:pointer;font-size:14px">继续探索 →</button>';
         document.body.appendChild(div);
         setTimeout(() => div.remove(), 5000);
-    }
-})();
-
-// 本周摘要
-(function(){
-    const tools = {{ site.Data.tools | jsonify | safeJS }} || [];
-    const models = {{ site.Data.models | jsonify | safeJS }} || [];
-    const news = {{ site.Data.news | jsonify | safeJS }} || [];
-
-    const trending = tools.filter(t => t.trending).length;
-    const freeTools = tools.filter(t => t.free_quota && t.free_quota.includes('免费')).length;
-    const el = document.getElementById('weeklyDigest');
-    const content = document.getElementById('weeklyContent');
-
-    if (tools.length > 0) {
-        el.style.display = '';
-        content.innerHTML = '📊 收录 <strong style="color:var(--accent)">' + tools.length + '</strong> 个 AI 工具 · '
-            + '<strong style="color:var(--accent)">' + models.length + '</strong> 个模型 · '
-            + '<strong style="color:var(--accent)">' + news.length + '</strong> 条新闻<br>'
-            + '🔥 其中 <strong>' + trending + '</strong> 个热门工具 · '
-            + '🎁 <strong>' + freeTools + '</strong> 个有免费额度<br>'
-            + '📰 每6小时自动更新，数据开源透明';
     }
 })();
 

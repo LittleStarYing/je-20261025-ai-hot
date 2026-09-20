@@ -40,13 +40,20 @@
 <div id="searchResults"></div>
 
 <script>
-const searchData = {
-    tools: {{ site.Data.tools | jsonify | safeJS }} || [],
-    models: {{ site.Data.models | jsonify | safeJS }} || [],
-    agents: {{ site.Data.agents | jsonify | safeJS }} || [],
-    news: {{ site.Data.news | jsonify | safeJS }} || []
-};
-const seoData = {{ site.Data.seo | jsonify | safeJS }} || {};
+// 搜索数据改为异步加载：把完整的 news.json 内嵌进页面会让 /search/ 达到 36MB
+const searchData = { tools: [], models: [], agents: [], news: [] };
+let searchIndexPromise = null;
+function ensureSearchIndex() {
+    if (!searchIndexPromise) {
+        searchIndexPromise = fetch('{{ "search-index.json" | relURL }}')
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(data => { Object.assign(searchData, data || {}); return searchData; })
+            .catch(err => { console.warn('搜索索引加载失败:', err); return searchData; });
+    }
+    return searchIndexPromise;
+}
+window.addEventListener('load', ensureSearchIndex);
+const seoData = {{ hugo.Data.seo | jsonify | safeJS }} || {};
 
 // 热门搜索词
 const hotKeywords = (seoData.hot_keywords && seoData.hot_keywords.length ? seoData.hot_keywords : ['Cursor', 'ChatGPT', 'DeepSeek', 'Claude', 'Midjourney', 'FLUX', 'Ollama', 'AI编程', 'AI绘画', 'AI视频', '开源模型', '免费AI']).slice(0, 12);
@@ -323,7 +330,7 @@ function searchAll(query, sortBy = 'relevance') {
     return results;
 }
 
-function doSearch(query) {
+async function doSearch(query) {
     if (!query || query.trim().length === 0) {
         document.getElementById('searchResults').innerHTML = '';
         document.getElementById('searchResultsCount').innerHTML = '';
@@ -335,6 +342,7 @@ function doSearch(query) {
     document.getElementById('hotSearch').style.display = 'none';
     document.getElementById('searchHistory').style.display = 'none';
 
+    await ensureSearchIndex();
     const sortBy = document.getElementById('sortSelect').value;
     const r = searchAll(query, sortBy);
     const total = r.tools.length + r.models.length + r.agents.length + r.news.length;
@@ -411,16 +419,18 @@ let searchTimeout;
 document.getElementById('searchInput').addEventListener('input', function(e) {
     clearTimeout(searchTimeout);
     const query = e.target.value;
-    
-    // 显示搜索建议
-    if (query.length >= 2) {
-        const suggestions = getSuggestions(query);
-        showSuggestions(suggestions);
-        selectedIndex = -1;
-    } else {
-        hideSuggestions();
-    }
-    
+
+    // 显示搜索建议（等索引就绪，避免首次输入时建议为空）
+    ensureSearchIndex().then(() => {
+        if (document.getElementById('searchInput').value !== query) return;
+        if (query.length >= 2) {
+            showSuggestions(getSuggestions(query));
+            selectedIndex = -1;
+        } else {
+            hideSuggestions();
+        }
+    });
+
     // 延迟搜索
     searchTimeout = setTimeout(() => doSearch(query), 300);
 });

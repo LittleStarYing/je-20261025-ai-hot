@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $toolId := .Params.id }}
-{{ $tools := site.Data.tools }}
+{{ $tools := hugo.Data.tools }}
 {{ $tool := index (where $tools "id" $toolId) 0 }}
 {{ if not $tool }}
 <div class="card" style="text-align:center;padding:40px">
@@ -80,7 +80,7 @@
         <div style="font-size:12px;color:var(--text3);margin-bottom:8px">🔄 常见替代方案</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
             {{ range $tool.alternatives }}
-                {{ $alt := index (where site.Data.tools "id" .) 0 }}
+                {{ $alt := index (where hugo.Data.tools "id" .) 0 }}
                 {{ if $alt }}<a href="{{ relURL "/tools/" }}{{ $alt.id }}/" class="tag" style="text-decoration:none">{{ $alt.name }}</a>{{ end }}
             {{ end }}
         </div>
@@ -124,13 +124,13 @@
         {{ if $tool.url }}<a href="{{ $tool.url }}" target="_blank" rel="noopener" class="spotlight-btn" style="display:inline-block">访问 {{ $tool.name }} →</a>{{ end }}
         {{ if $tool.alternatives }}
             {{ $firstAlt := index $tool.alternatives 0 }}
-            {{ $altTool := index (where site.Data.tools "id" $firstAlt) 0 }}
+            {{ $altTool := index (where hugo.Data.tools "id" $firstAlt) 0 }}
             {{ if $altTool }}<a href="{{ relURL "/tools/" }}{{ $altTool.id }}/" class="spotlight-btn" style="display:inline-block;background:var(--bg3);color:var(--text1)">先看替代方案：{{ $altTool.name }} →</a>{{ end }}
         {{ end }}
     </div>
 </div>
 
-{{ $related := first 6 (where (where site.Data.tools "category" $tool.category) "id" "ne" $tool.id) }}
+{{ $related := first 6 (where (where hugo.Data.tools "category" $tool.category) "id" "ne" $tool.id) }}
 {{ if gt (len $related) 0 }}
 <div class="card">
     <div class="card-title">🔗 同类推荐</div>

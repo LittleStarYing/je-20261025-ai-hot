@@ -29,6 +29,7 @@ from daily_spotlight import select_daily_spotlight
 from link_checker import quick_check
 from ai_enhance import summarize_news, generate_daily_briefing, score_tools
 from generate_sitemap import generate_sitemap
+from generate_search_index import generate_search_index
 from generate_tool_pages import generate_tool_pages
 from generate_news_pages import generate_news_pages
 from news_content_extract import extract_news_content
@@ -126,6 +127,7 @@ def main():
         ("🧱 生成工具静态页", generate_tool_pages),
         ("📰 生成新闻静态页", generate_news_pages),
         ("📦 同步数据", sync_to_site),
+        ("🔎 生成搜索索引", generate_search_index),
         ("🗺️ 生成Sitemap", generate_sitemap),
         ("📘 更新README", update_readme_links),
     ]

@@ -198,10 +198,44 @@ def check_readme_sync(errors, expected_date):
     if expected_date and expected_date not in text:
         errors.append(f'README date not synced with data date: missing {expected_date}')
 
+# 首页/搜索页曾用 jsonify 把完整 data/*.json 内嵌进 HTML，
+# news.json 涨到 35MB 后首页 HTML 接近 70MB。搜索数据必须走
+# search-index.json 异步加载，这里守住回归。
+INLINE_SEARCH_DATA_PATTERNS = (
+    'site.Data.news | jsonify',
+    'site.Data.tools | jsonify',
+    'site.Data.models | jsonify',
+    'site.Data.agents | jsonify',
+)
+
+
+def check_search_data_not_inlined(errors):
+    for name in ('index.html', '_default/search.html'):
+        path = ROOT / 'site' / 'layouts' / name
+        if not path.exists():
+            errors.append(f'layout missing: {name}')
+            continue
+        text = path.read_text(encoding='utf-8')
+        for pattern in INLINE_SEARCH_DATA_PATTERNS:
+            if pattern in text:
+                field = pattern.split(' | ')[0]
+                errors.append(f'{name} inlines {field} into HTML again (page bloat)')
+        if 'search-index.json' not in text:
+            errors.append(f'{name} no longer loads search-index.json')
+
+    index_json = ROOT / 'site' / 'static' / 'search-index.json'
+    if not index_json.exists():
+        errors.append('site/static/search-index.json missing')
+    else:
+        size_mb = index_json.stat().st_size / 1024 / 1024
+        if size_mb > 6:
+            errors.append(f'search-index.json too large: {size_mb:.1f}MB')
+
 def main():
     errors=[]
     warnings=[]
     check_models_curated(errors)
+    check_search_data_not_inlined(errors)
 
     providers = check_icon_url_records(errors, 'providers.json', allow_openrouter=True)
     if providers[:5] and not all(str(p.get('icon_url') or '').strip() for p in providers[:5]):

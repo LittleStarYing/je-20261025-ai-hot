@@ -1,9 +1,17 @@
 baseURL = "https://aihot.bt199.com/"
-languageCode = "zh-CN"
+locale = "zh-CN"
 title = "AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐"
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
-paginate = 20
+
+# 首页/列表页都是客户端分页（见 layouts/_default/list.html），不依赖 Hugo 分页器；
+# 仍按新语法声明，避免旧顶层键 paginate 在后续 Hugo 版本报错。
+[pagination]
+  pagerSize = 20
+
+# 首页 RSS 默认会遍历全部子页面，不加限制时 index.xml 会涨到 3MB
+[services.rss]
+  limit = 20
 
 [params]
   description = "AI热榜 - 中文AI世界实时热榜。收录1000+AI工具、AI模型、AI Agent，每6小时自动更新。AI工具排名、免费AI工具推荐、国产大模型对比、AI新闻一网打尽。"
@@ -25,7 +33,7 @@ paginate = 20
       unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [[menu.main]]
   name = "🔥 热榜"

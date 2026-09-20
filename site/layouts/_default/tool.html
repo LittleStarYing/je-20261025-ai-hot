@@ -10,7 +10,7 @@
 </div>
 
 <script>
-const allTools = {{ site.Data.tools | jsonify | safeJS }} || [];
+const allTools = {{ hugo.Data.tools | jsonify | safeJS }} || [];
 const params = new URLSearchParams(location.search);
 const id = params.get('id');
 if (id) {
