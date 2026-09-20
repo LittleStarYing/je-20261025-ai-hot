@@ -4,9 +4,11 @@
   "news_count": 20,
   "sources": {
     "量子位": 5,
-    "V2EX": 3,
-    "The Verge AI": 4,
-    "TechCrunch AI": 6
+    "The Verge AI": 2,
+    "Ars Technica AI": 1,
+    "Hacker News AI": 3,
+    "V2EX": 2,
+    "TechCrunch AI": 3
   },
   "emoji": "⚡"
 }

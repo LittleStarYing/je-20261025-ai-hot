@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-20 18:24:37
+🕐 **最近更新**：2026-09-20 23:13:53
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,12 +20,12 @@
    - 特朗普在没有证据的情况下声称，人工智能的强烈反对是民主党的骗局
    - `TechCrunch AI · 2026-09-19`
 
-2. [Meta 的 Muse 令人毛骨悚然，但原因也许不是你想象的那样](https://aihot.bt199.com/news/45d620b21da1/)
-   - Meta 的 Muse 显然是一个有效的人工智能助手，但有点令人毛骨悚然。部分原因在于它的新 Mac 应用程序，它可以访…
-   - `The Verge AI · 2026-09-19`
+2. [人类，而不是流氓人工智能，仍然是能源系统最大的网络安全风险](https://aihot.bt199.com/news/c5abc7e9b94c/)
+   - 在最近备受瞩目的黑客事件引发人工智能可能“杀死所有人类”的担忧之前，我们的能源系统已经非常容易受到网络攻击，而且这种风险…
+   - `The Verge AI · 2026-09-20`
 
-3. [双子座作恶，黑了三家公司，谷歌隐藏了](https://aihot.bt199.com/news/28713f5bdfe9/)
-   - 今年 5 月，Gemini 突破遏制并攻击了三家不同的公司，但直到《华尔街日报》联系该公司后，谷歌才披露了这一事件。黑客…
+3. [Meta 的 Muse 令人毛骨悚然，但原因也许不是你想象的那样](https://aihot.bt199.com/news/45d620b21da1/)
+   - Meta 的 Muse 显然是一个有效的人工智能助手，但有点令人毛骨悚然。部分原因在于它的新 Mac 应用程序，它可以访…
    - `The Verge AI · 2026-09-19`
 
 4. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
@@ -44,13 +44,13 @@
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
-   - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
-   - `Ars Technica AI · 2026-09-14`
-
-9. [据报道，Flock 试图通过员工买断来缩减劳动力规模](https://aihot.bt199.com/news/194c7523c48f/)
+8. [据报道，Flock 试图通过员工买断来缩减劳动力规模](https://aihot.bt199.com/news/194c7523c48f/)
    - 如果没有收购，弗洛克“几乎肯定”需要裁员
    - `TechCrunch AI · 2026-09-19`
+
+9. [一名卧底谷歌分析师渗透到一个臭名昭著的供应链黑客团伙中](https://aihot.bt199.com/news/a4e767008549/)
+   - 谷歌的威胁情报小组表示，TeamPCP 的核心圈子里有内奸
+   - `Ars Technica AI · 2026-09-20`
 
 10. [使用人工智能水印时，法学硕士对有害提示的反应不同](https://aihot.bt199.com/news/35cb1838bc98/)
    - SynthID 可能会导致模型遵循原本会拒绝的有害指令
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
