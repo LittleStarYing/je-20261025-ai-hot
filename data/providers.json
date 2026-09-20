@@ -33,10 +33,10 @@
     "url": "https://openai.com",
     "logo": "🟢",
     "models": [
-      "GPT-4o",
-      "GPT-4.1",
-      "o3",
-      "o4-mini"
+      "GPT-6 系列",
+      "GPT-5 系列",
+      "o 推理系列",
+      "Sora"
     ],
     "type": "国际",
     "pricing": "按量计费",
@@ -941,16 +941,18 @@
     "url": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
     "logo": "🔵",
     "models": [
-      "GPT-4o",
-      "GPT-4.1"
+      "GPT-6 系列",
+      "GPT-5 系列",
+      "o 推理系列"
     ],
     "type": "云平台",
     "pricing": "按量计费",
     "api": true,
     "source": "manual",
     "latest_models": [
-      "GPT-4o",
-      "GPT-4.1"
+      "GPT-6 系列",
+      "GPT-5 系列",
+      "o 推理系列"
     ],
     "model_count": 0,
     "last_updated": "",
@@ -1028,6 +1030,74 @@
     "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
     "provider_kind": "platform",
     "icon_url": "https://www.google.com/s2/favicons?domain=groq.com&sz=64"
+  },
+  {
+    "id": "opencode-zen",
+    "name": "OpenCode Zen",
+    "url": "https://opencode.ai/zen",
+    "logo": "🧩",
+    "models": [
+      "编码精选模型"
+    ],
+    "type": "聚合",
+    "pricing": "按量计费 + 免费模型",
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "编码精选模型"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform",
+    "icon_url": "https://www.google.com/s2/favicons?domain=opencode.ai&sz=64"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "url": "https://ollama.com/cloud",
+    "logo": "🦙",
+    "models": [
+      "开源模型集群",
+      "Ollama Cloud"
+    ],
+    "type": "本地+云",
+    "pricing": "本地免费 / 云端按量",
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "开源模型集群",
+      "Ollama Cloud"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ollama.com&sz=64"
+  },
+  {
+    "id": "command-code",
+    "name": "Command Code",
+    "url": "https://commandcode.ai",
+    "logo": "⌘",
+    "models": [
+      "60+ 模型"
+    ],
+    "type": "编码聚合",
+    "pricing": "免费起步 / 按量计费",
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "60+ 模型"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform",
+    "icon_url": "https://www.google.com/s2/favicons?domain=commandcode.ai&sz=64"
   },
   {
     "id": "~anthropic",

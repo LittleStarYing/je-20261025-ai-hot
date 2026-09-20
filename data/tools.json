@@ -434,7 +434,7 @@
     "description": "最流行的 AI 对话工具，OpenAI 出品",
     "category": "对话",
     "pricing": "免费 + Plus $20/月",
-    "free_quota": "GPT-4o-mini 免费",
+    "free_quota": "免费版可用（限次）",
     "difficulty": 1,
     "tags": [
       "#chat",
@@ -492,7 +492,7 @@
     "cons": [
       "需要科学上网",
       "免费额度有限",
-      "多模态能力弱于GPT-4V"
+      "高峰期可能限流"
     ],
     "best_for": [
       "开发者",
@@ -514,7 +514,7 @@
     "description": "Google 出品的 AI 对话工具，多模态能力强",
     "category": "对话",
     "pricing": "免费 + Advanced $20/月",
-    "free_quota": "Gemini 1.5 Flash 免费",
+    "free_quota": "免费版可用（限次）",
     "difficulty": 1,
     "tags": [
       "#chat",
@@ -550,7 +550,7 @@
       "开源模型"
     ],
     "cons": [
-      "知名度较低",
+      "高峰期偶有繁忙",
       "插件生态弱",
       "多模态能力有限"
     ],

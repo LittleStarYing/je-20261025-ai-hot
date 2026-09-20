@@ -34,7 +34,11 @@ PROVIDER_PREFIX_MAP = {
     'volcengine': [],
 }
 
-PLATFORM_IDS = {'aws-bedrock', 'azure-openai', 'together', 'groq', 'siliconflow', 'volcengine', 'openrouter'}
+PLATFORM_IDS = {
+    'aws-bedrock', 'azure-openai', 'together', 'groq', 'siliconflow', 'volcengine', 'openrouter',
+    # 编码/本地推理方向的平台型提供商，需在此登记，否则每轮聚合会被降级成 manual
+    'opencode-zen', 'ollama', 'command-code',
+}
 MODEL_AUTHOR_IDS = {
     'openai', 'anthropic', 'google', 'deepseek', 'alibaba', 'baidu', 'bytedance',
     'tencent', 'moonshot', 'zhipu', 'minimax', 'xiaomi', 'mistral', 'meta', 'xai', 'nvidia'

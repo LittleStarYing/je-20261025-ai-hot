@@ -14,7 +14,7 @@ hasCJKLanguage = true
   limit = 20
 
 [params]
-  description = "AI热榜 - 中文AI世界实时热榜。收录1000+AI工具、AI模型、AI Agent，每6小时自动更新。AI工具排名、免费AI工具推荐、国产大模型对比、AI新闻一网打尽。"
+  description = "AI热榜 - 中文AI世界实时热榜。持续收录 AI 工具、AI 模型、AI Agent 与 AI 新闻，每6小时自动更新。AI工具排名、免费AI工具推荐、国产大模型对比、AI新闻一网打尽。"
   keywords = "AI热榜, AI工具, AI导航, AI工具大全, AI工具推荐, 免费AI工具, AI写作, AI绘画, AI编程, 大模型, 国产大模型, AI Agent"
   author = "AI热榜"
 

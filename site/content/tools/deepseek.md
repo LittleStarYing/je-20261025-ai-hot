@@ -21,7 +21,7 @@ use_cases = "中文对话、代码生成、数学推理、开源部署"
 score = 70
 tags = ["#chat", "#chinese", "#opensource", "#free"]
 pros = ["中文能力突出", "完全免费", "代码能力强", "开源模型"]
-cons = ["知名度较低", "插件生态弱", "多模态能力有限"]
+cons = ["高峰期偶有繁忙", "插件生态弱", "多模态能力有限"]
 best_for = ["中文用户", "开发者", "研究人员"]
 alternatives = ["chatgpt", "claude", "kimi"]
 +++

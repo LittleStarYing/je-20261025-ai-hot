@@ -21,7 +21,7 @@ use_cases = "长文档分析、代码生成、学术写作、数据分析"
 score = 60
 tags = ["#chat", "#anthropic", "#long-context"]
 pros = ["长文本处理能力强", "安全性高", "代码能力优秀", "分析能力强"]
-cons = ["需要科学上网", "免费额度有限", "多模态能力弱于GPT-4V"]
+cons = ["需要科学上网", "免费额度有限", "高峰期可能限流"]
 best_for = ["开发者", "研究人员", "文档处理"]
 alternatives = ["chatgpt", "gemini", "deepseek"]
 +++

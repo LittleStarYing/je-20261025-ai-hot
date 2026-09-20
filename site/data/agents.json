@@ -250,7 +250,7 @@
     "id": "webvoyager",
     "name": "WebVoyager",
     "url": "https://github.com/MinorJerry/WebVoyager",
-    "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
+    "description": "基于视觉大模型的网页浏览Agent，视觉理解网页内容",
     "type": "浏览器 Agent",
     "pricing": "开源免费",
     "difficulty": 3,

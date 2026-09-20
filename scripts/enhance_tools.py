@@ -4,8 +4,10 @@
 """
 
 import json
+import os
 
-DATA_DIR = "/root/ai-hot/data"
+# 原先硬编码为 /root/ai-hot/data，换台机器就找不到数据
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
 # 为热门工具添加优缺点数据
 TOOL_ENHANCEMENTS = {
@@ -23,7 +25,7 @@ TOOL_ENHANCEMENTS = {
     },
     "claude": {
         "pros": ["长文本处理能力强", "安全性高", "代码能力优秀", "分析能力强"],
-        "cons": ["需要科学上网", "免费额度有限", "多模态能力弱于GPT-4V"],
+        "cons": ["需要科学上网", "免费额度有限", "高峰期可能限流"],
         "best_for": ["开发者", "研究人员", "文档处理"],
         "alternatives": ["chatgpt", "gemini", "deepseek"]
     },
@@ -53,7 +55,7 @@ TOOL_ENHANCEMENTS = {
     },
     "deepseek": {
         "pros": ["中文能力突出", "完全免费", "代码能力强", "开源模型"],
-        "cons": ["知名度较低", "插件生态弱", "多模态能力有限"],
+        "cons": ["高峰期偶有繁忙", "插件生态弱", "多模态能力有限"],
         "best_for": ["中文用户", "开发者", "研究人员"],
         "alternatives": ["chatgpt", "claude", "kimi"]
     },
