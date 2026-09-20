@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4379-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4382-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-20 23:13:53
+🕐 **最近更新**：2026-09-21 04:06:04
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,33 +16,33 @@
 
 ## 🔥 今日热点
 
-1. [特朗普表示是时候用新名称重新命名人工智能了——他还正在创建一支人工智能部队](https://aihot.bt199.com/news/c0e5bbea1628/)
-   - 特朗普在没有证据的情况下声称，人工智能的强烈反对是民主党的骗局
-   - `TechCrunch AI · 2026-09-19`
-
-2. [人类，而不是流氓人工智能，仍然是能源系统最大的网络安全风险](https://aihot.bt199.com/news/c5abc7e9b94c/)
-   - 在最近备受瞩目的黑客事件引发人工智能可能“杀死所有人类”的担忧之前，我们的能源系统已经非常容易受到网络攻击，而且这种风险…
+1. [英伟达 (Nvidia) 的黄仁勋 (Jensen Huang) 认为人工智能的担忧被夸大了，这一点没有人感到惊讶。](https://aihot.bt199.com/news/0c6dd0ea6efb/)
+   - 那些可能从人工智能热潮中赚到最多钱的人似乎认为自己比其他人更了解，包括几十年来研究和工作人工智能的研究人员。在周日早上接…
    - `The Verge AI · 2026-09-20`
 
-3. [Meta 的 Muse 令人毛骨悚然，但原因也许不是你想象的那样](https://aihot.bt199.com/news/45d620b21da1/)
-   - Meta 的 Muse 显然是一个有效的人工智能助手，但有点令人毛骨悚然。部分原因在于它的新 Mac 应用程序，它可以访…
-   - `The Verge AI · 2026-09-19`
+2. [特朗普现在表示他想组建一支“人工智能部队”](https://aihot.bt199.com/news/0053101fd257/)
+   - 总统在Truth Social上发帖称，他想任命一位“人工智能沙皇”来领导一支新的“人工智能力量”。在他宣布这一消息之际…
+   - `The Verge AI · 2026-09-20`
 
-4. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
+3. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能真的会杀死我们所有人吗？您的…
    - `MIT Tech Review · 2026-09-18`
 
-5. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
+4. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
    - 周三，《麻省理工科技评论》为订阅者举办了一场现场圆桌会议，提出了每个人现在都在问的问题：人工智能真的会杀死我们所有人吗？…
    - `MIT Tech Review · 2026-09-18`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+5. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+6. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
+
+7. [人工智能行业真的准备好放慢脚步了吗？](https://aihot.bt199.com/news/262fdb19d1b4/)
+   - 在股权方面，我们讨论了人工智能高管是否真的想放慢脚步
+   - `TechCrunch AI · 2026-09-20`
 
 8. [据报道，Flock 试图通过员工买断来缩减劳动力规模](https://aihot.bt199.com/news/194c7523c48f/)
    - 如果没有收购，弗洛克“几乎肯定”需要裁员
@@ -99,8 +99,8 @@
 - [🛠️ AI工具（171）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（399）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4379）](https://aihot.bt199.com/news/)
-- [🏢 AI提供商（56）](https://aihot.bt199.com/providers/)
+- [📰 AI新闻（4382）](https://aihot.bt199.com/news/)
+- [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
 
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

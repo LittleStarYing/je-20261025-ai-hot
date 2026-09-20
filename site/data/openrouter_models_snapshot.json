@@ -206,13 +206,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000054912",
-        "completion": "0.00000164736",
-        "input_cache_read": "0.000000017472"
+        "prompt": "0.00000052668",
+        "completion": "0.00000158004",
+        "input_cache_read": "0.000000017556"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 393216,
+        "context_length": 1024000,
+        "max_completion_tokens": 384000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2433,6 +2433,7 @@
         "response_format",
         "stop",
         "structured_outputs",
+        "tool_choice",
         "tools",
         "verbosity"
       ],
@@ -3480,13 +3481,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000002156",
-        "completion": "0.0000006468",
-        "input_cache_read": "0.00000000686"
+        "prompt": "0.00000022",
+        "completion": "0.00000066",
+        "input_cache_read": "0.000000007"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -3711,9 +3712,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000008442",
-        "completion": "0.0000026532",
-        "input_cache_read": "0.00000015678"
+        "prompt": "0.0000008316",
+        "completion": "0.0000026136",
+        "input_cache_read": "0.00000015444"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -3830,9 +3831,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000868",
-        "completion": "0.000002728",
-        "input_cache_read": "0.0000001612"
+        "prompt": "0.00000091",
+        "completion": "0.00000286",
+        "input_cache_read": "0.000000169"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -4975,13 +4976,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000054912",
-        "completion": "0.00000164736",
-        "input_cache_read": "0.000000017472"
+        "prompt": "0.00000052668",
+        "completion": "0.00000158004",
+        "input_cache_read": "0.000000017556"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 393216,
+        "context_length": 1024000,
+        "max_completion_tokens": 384000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10307,9 +10308,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -12096,6 +12097,7 @@
         "response_format",
         "stop",
         "structured_outputs",
+        "tool_choice",
         "tools",
         "verbosity"
       ],
@@ -16368,8 +16370,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000009",
+        "prompt": "0.00000015",
+        "completion": "0.000001",
         "input_cache_read": "0.00000005"
       },
       "top_provider": {
@@ -29731,8 +29733,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000007"
+        "prompt": "0.00000013",
+        "completion": "0.00000052"
       },
       "top_provider": {
         "context_length": 131072,
@@ -39744,6 +39746,7 @@
         "min_p",
         "presence_penalty",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
         "temperature",
@@ -42052,5 +42055,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-20T15:12:54.711303+00:00"
+  "updated_at": "2026-09-20T20:05:21.290689+00:00"
 }
