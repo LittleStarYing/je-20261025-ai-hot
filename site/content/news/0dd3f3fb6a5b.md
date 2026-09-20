@@ -20,7 +20,7 @@ ai_summary = "今天，我们在 Decoder 上播出了关于商业未来的两部
 summary = "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I&#8217;m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration."
 summary_zh = "今天，我们在 Decoder 上播出了关于商业未来的两部分系列中的第一部分，我正在与拜登政府的美国司法部前反垄断负责人乔纳森·坎特 (Jonathan Kanter) 进行交谈。如今，他既是华盛顿大学的法学教授，又是华盛顿大学的技术教授"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

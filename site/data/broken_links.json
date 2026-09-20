@@ -1,47 +1,5 @@
 [
   {
-    "id": "github-343965132",
-    "name": "microsoft/ML-For-Beginners",
-    "url": "https://github.com/microsoft/ML-For-Beginners",
-    "status": 429,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-copilot",
-    "name": "GitHub Copilot",
-    "url": "https://github.com/features/copilot",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "codex-cli",
-    "name": "Codex CLI",
-    "url": "https://github.com/openai/codex",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "codeium",
-    "name": "Codeium",
-    "url": "https://codeium.com",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "windsurf",
-    "name": "Windsurf",
-    "url": "https://codeium.com/windsurf",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "https://midjourney.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
     "id": "comfyui",
     "name": "ComfyUI",
     "url": "https://github.com/comfyanonymous/ComfyUI",
@@ -767,6 +725,48 @@
     "name": "Windsurf",
     "url": "https://codeium.com/windsurf",
     "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "status": 403,
     "file": "tools.json"
   },
   {
