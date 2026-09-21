@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "这届“WRC必看”：全栈AI、20+超难家务，8.99万带回家"
 summary_zh = ""
 tags = []
-list_page = 107
+list_page = 108
 +++
 
 <!-- AUTO-GENERATED: news page -->
