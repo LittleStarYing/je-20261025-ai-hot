@@ -20,7 +20,7 @@ ai_summary = "据报道，阿里巴巴已将 Claude Code 列为高风险软件"
 summary = "Alibaba has reportedly classified Claude Code as high-risk software."
 summary_zh = "据报道，阿里巴巴已将 Claude Code 列为高风险软件"
 tags = []
-list_page = 317
+list_page = 319
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4388-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4414-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-21 10:37:03
+🕐 **最近更新**：2026-09-21 19:37:21
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [英伟达 (Nvidia) 的黄仁勋 (Jensen Huang) 认为人工智能的担忧被夸大了，这一点没有人感到惊讶。](https://aihot.bt199.com/news/0c6dd0ea6efb/)
-   - 那些可能从人工智能热潮中赚到最多钱的人似乎认为自己比其他人更了解，包括几十年来研究和工作人工智能的研究人员。在周日早上接…
-   - `The Verge AI · 2026-09-20`
+1. [联合国表示人工智能保障措施不能等待确定性](https://aihot.bt199.com/news/13e93d540c1e/)
+   - 联合国一个科学小组在今年早些时候对 OpenAI 黑客入侵 Hugging Face 事件进行的首次重大评估中警告说，各…
+   - `The Verge AI · 2026-09-21`
 
-2. [特朗普现在表示他想组建一支“人工智能部队”](https://aihot.bt199.com/news/0053101fd257/)
-   - 总统在Truth Social上发帖称，他想任命一位“人工智能沙皇”来领导一支新的“人工智能力量”。在他宣布这一消息之际…
-   - `The Verge AI · 2026-09-20`
+2. [亚马逊不信任 Meta 的 Muse AI 代理](https://aihot.bt199.com/news/ac1368b0f72d/)
+   - 据 GeekWire 报道，Meta 的 Muse AI 代理已被禁止代表其用户在亚马逊购物。周日，Muse 用户开始出…
+   - `The Verge AI · 2026-09-21`
 
 3. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能真的会杀死我们所有人吗？您的…
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（171）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（399）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4388）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4414）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

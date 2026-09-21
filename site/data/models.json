@@ -4379,6 +4379,29 @@
     "is_core": true
   },
   {
+    "id": "hf-Comfy-Org--Qwen-Image-2.1",
+    "name": "Comfy-Org/Qwen-Image-2.1",
+    "display_name": "Qwen-Image-2.1",
+    "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+    "author": "Comfy-Org",
+    "pipeline_tag": "",
+    "likes": 371,
+    "downloads": 535365,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:Qwen/Qwen-Image-2.1",
+      "base_model:finetune:Qwen/Qwen-Image-2.1",
+      "license:other",
+      "region:us"
+    ],
+    "created_at": "2026-09-15T19:41:09.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-09-21T11:35:28.476019",
+    "display_priority": 117,
+    "is_core": true
+  },
+  {
     "id": "hf-Kijai--LTX2.3_comfy",
     "name": "Kijai/LTX2.3_comfy",
     "display_name": "LTX2.3_comfy",
@@ -4396,7 +4419,7 @@
     "created_at": "2026-03-05T15:20:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-08T13:15:04.246373",
-    "display_priority": 117,
+    "display_priority": 118,
     "is_core": true
   },
   {
@@ -4430,7 +4453,7 @@
     "created_at": "2026-07-28T10:45:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-03T09:29:16.601292",
-    "display_priority": 118,
+    "display_priority": 119,
     "is_core": true
   },
   {
@@ -4452,25 +4475,6 @@
     "created_at": "2026-07-30T22:36:12.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-05T13:48:53.784995",
-    "display_priority": 119,
-    "is_core": true
-  },
-  {
-    "id": "hf-facebook--tribev2",
-    "name": "facebook/tribev2",
-    "display_name": "tribev2",
-    "url": "https://huggingface.co/facebook/tribev2",
-    "author": "facebook",
-    "pipeline_tag": "",
-    "likes": 488,
-    "downloads": 204663,
-    "tags": [
-      "license:cc-by-nc-4.0",
-      "region:us"
-    ],
-    "created_at": "2026-03-24T10:54:10.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-05-06T19:28:23.277960",
     "display_priority": 120,
     "is_core": true
   },
