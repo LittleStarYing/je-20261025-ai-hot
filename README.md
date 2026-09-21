@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4414-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4428-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-21 19:37:21
+🕐 **最近更新**：2026-09-22 01:35:11
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,37 +16,37 @@
 
 ## 🔥 今日热点
 
-1. [联合国表示人工智能保障措施不能等待确定性](https://aihot.bt199.com/news/13e93d540c1e/)
-   - 联合国一个科学小组在今年早些时候对 OpenAI 黑客入侵 Hugging Face 事件进行的首次重大评估中警告说，各…
+1. [一位前会计师通过 Tabby 正在利用人工智能让会计师变得过时](https://aihot.bt199.com/news/8a06f4e34726/)
+   - Tabby 被设计为一个实时簿记界面，处理客户的文书工作，为他们提供有关其业务损益的最新数据
+   - `TechCrunch AI · 2026-09-21`
+
+2. [下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系在 TechCrunch Disrupt 2026 上发挥作用](https://aihot.bt199.com/news/719dd1e473cc/)
+   - 下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系将在 TechCrunch Disrupt 2…
+   - `TechCrunch AI · 2026-09-21`
+
+3. [约翰·特努斯 (John Ternus) 能否找到苹果的下一件大事？](https://aihot.bt199.com/news/5c2e26dc6103/)
+   - 今天，我正在采访马克·古尔曼 (Mark Gurman)，他是全球消息来源最丰富的苹果记者，既担任彭博社的首席苹果记者…
    - `The Verge AI · 2026-09-21`
 
-2. [亚马逊不信任 Meta 的 Muse AI 代理](https://aihot.bt199.com/news/ac1368b0f72d/)
-   - 据 GeekWire 报道，Meta 的 Muse AI 代理已被禁止代表其用户在亚马逊购物。周日，Muse 用户开始出…
+4. [iPhone 用户现在可以在苹果 2.5 亿美元 Siri AI 和解协议中提出索赔](https://aihot.bt199.com/news/93b84abf7bbd/)
+   - 苹果公司将支付 2.5 亿美元来解决有关其未能提供人工智能升级版 Siri 的索赔——现在，符合条件的 iPhone 用…
    - `The Verge AI · 2026-09-21`
 
-3. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能真的会杀死我们所有人吗？您的…
-   - `MIT Tech Review · 2026-09-18`
+5. [下载：调查美国边境“虚​​拟墙”的死亡事件](https://aihot.bt199.com/news/06d3f809c0b2/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。美国在边境监控上花费了数十亿美元。为…
+   - `MIT Tech Review · 2026-09-21`
 
-4. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
-   - 周三，《麻省理工科技评论》为订阅者举办了一场现场圆桌会议，提出了每个人现在都在问的问题：人工智能真的会杀死我们所有人吗？…
-   - `MIT Tech Review · 2026-09-18`
+6. [解决美国边境“虚​​拟墙”失败问题的四种方法](https://aihot.bt199.com/news/b4add5777c43/)
+   - 《麻省理工科技评论》今天发表了我们对美国政府沿美墨边境安装的监视塔“虚拟墙”附近有多少人死亡的调查。我们发现有人在不被发…
+   - `MIT Tech Review · 2026-09-21`
 
-5. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-6. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
-
-7. [人工智能行业真的准备好放慢脚步了吗？](https://aihot.bt199.com/news/262fdb19d1b4/)
-   - 在股权方面，我们讨论了人工智能高管是否真的想放慢脚步
-   - `TechCrunch AI · 2026-09-20`
-
-8. [据报道，Flock 试图通过员工买断来缩减劳动力规模](https://aihot.bt199.com/news/194c7523c48f/)
-   - 如果没有收购，弗洛克“几乎肯定”需要裁员
-   - `TechCrunch AI · 2026-09-19`
 
 9. [一名卧底谷歌分析师渗透到一个臭名昭著的供应链黑客团伙中](https://aihot.bt199.com/news/a4e767008549/)
    - 谷歌的威胁情报小组表示，TeamPCP 的核心圈子里有内奸
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（171）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（399）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4414）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4428）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

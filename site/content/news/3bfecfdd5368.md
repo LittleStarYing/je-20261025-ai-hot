@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：103 # 评论：85"
 summary = "Article URL: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：103 # 评论：85"
 tags = []
-list_page = 71
+list_page = 72
 +++
 
 <!-- AUTO-GENERATED: news page -->

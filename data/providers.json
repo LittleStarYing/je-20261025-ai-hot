@@ -47,12 +47,12 @@
       "GPT-6 Astra (batch)",
       "GPT-6 Astra Pro"
     ],
-    "model_count": 91,
+    "model_count": 90,
     "last_updated": "2026-09-04",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 91 个该作者/厂商相关模型，最近更新为 GPT-6 Astra",
+    "live_summary": "OpenRouter 已收录 90 个该作者/厂商相关模型，最近更新为 GPT-6 Astra",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
   },
@@ -75,12 +75,12 @@
       "Claude Fable 5.1 (batch)",
       "Claude Opus 5"
     ],
-    "model_count": 27,
+    "model_count": 26,
     "last_updated": "2026-09-01",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 27 个该作者/厂商相关模型，最近更新为 Claude Fable 5.1",
+    "live_summary": "OpenRouter 已收录 26 个该作者/厂商相关模型，最近更新为 Claude Fable 5.1",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
   },
@@ -157,14 +157,14 @@
       "Qwen3.8 Flash",
       "Qwen3.8 27B"
     ],
-    "model_count": 54,
+    "model_count": 52,
     "last_updated": "2026-09-03",
     "modalities": [
       "视频",
       "文本",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 54 个该作者/厂商相关模型，最近更新为 Qwen3.8 Max (0902)",
+    "live_summary": "OpenRouter 已收录 52 个该作者/厂商相关模型，最近更新为 Qwen3.8 Max (0902)",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=64"
   },
@@ -259,17 +259,17 @@
     "source": "openrouter",
     "latest_models": [
       "Kimi K3",
-      "Kimi K3 (batch)",
-      "Kimi K2.7 Code"
+      "Kimi K2.7 Code",
+      "Kimi K2.6"
     ],
-    "model_count": 8,
+    "model_count": 7,
     "last_updated": "2026-07-16",
     "modalities": [
       "视频",
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 Kimi K3",
+    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 Kimi K3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=moonshot.cn&sz=64"
   },
@@ -315,16 +315,17 @@
     "source": "openrouter",
     "latest_models": [
       "MiniMax M3",
-      "MiniMax M3 (batch)",
-      "MiniMax M2.7"
+      "MiniMax M2.7",
+      "MiniMax M2.5"
     ],
-    "model_count": 9,
+    "model_count": 8,
     "last_updated": "2026-05-31",
     "modalities": [
       "视频",
-      "文本"
+      "文本",
+      "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 9 个该作者/厂商相关模型，最近更新为 MiniMax M3",
+    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 MiniMax M3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=minimax.io&sz=64"
   },
@@ -397,16 +398,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "SpaceXAI: Grok 4.7",
       "SpaceXAI: Grok 4.6",
-      "SpaceXAI: Grok 4.5",
-      "SpaceXAI: Grok Build 0.1"
+      "SpaceXAI: Grok 4.5"
     ],
-    "model_count": 7,
-    "last_updated": "2026-08-12",
+    "model_count": 8,
+    "last_updated": "2026-09-21",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 SpaceXAI: Grok 4.6",
+    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 SpaceXAI: Grok 4.7",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
   },
