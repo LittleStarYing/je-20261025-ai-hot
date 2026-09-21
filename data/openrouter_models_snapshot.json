@@ -1,6 +1,192 @@
 {
   "data": [
     {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "canonical_slug": "xiaomi/mimo-v2.6-pro-ultraspeed-20260921",
+      "hugging_face_id": null,
+      "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+      "created": 1790021267,
+      "description": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly 10x...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000435",
+        "completion": "0.0000087",
+        "input_cache_read": "0.000000036"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "frequency_penalty": 0
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/xiaomi/mimo-v2.6-pro-ultraspeed-20260921/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "canonical_slug": "xiaomi/mimo-v2.6-flash-20260921",
+      "hugging_face_id": null,
+      "name": "Xiaomi: MiMo-V2.6-Flash",
+      "created": 1790021264,
+      "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.00000028",
+        "input_cache_read": "0.0000000028"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "frequency_penalty": 0
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/xiaomi/mimo-v2.6-flash-20260921/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "canonical_slug": "xiaomi/mimo-v2.6-pro-20260921",
+      "hugging_face_id": null,
+      "name": "Xiaomi: MiMo-V2.6-Pro",
+      "created": 1790021259,
+      "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000435",
+        "completion": "0.00000087",
+        "input_cache_read": "0.0000000036"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "frequency_penalty": 0
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/xiaomi/mimo-v2.6-pro-20260921/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
       "id": "x-ai/grok-4.7",
       "canonical_slug": "x-ai/grok-4.7-20260916",
       "hugging_face_id": null,
@@ -284,9 +470,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000057024",
-        "completion": "0.00000171072",
-        "input_cache_read": "0.000000019008"
+        "prompt": "0.00000054648",
+        "completion": "0.00000163944",
+        "input_cache_read": "0.000000018216"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -4974,12 +5160,93 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000057024",
-        "completion": "0.00000171072",
-        "input_cache_read": "0.000000019008"
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
+        "input_cache_read": "0.000000022",
+        "overrides": [
+          {
+            "utc_days": [
+              "saturday",
+              "sunday"
+            ],
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 0,
+            "utc_end": 100,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 100,
+            "utc_end": 400,
+            "prompt": "0.00000132",
+            "completion": "0.00000396",
+            "input_cache_read": "0.000000044"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 400,
+            "utc_end": 600,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 600,
+            "utc_end": 1000,
+            "prompt": "0.00000132",
+            "completion": "0.00000396",
+            "input_cache_read": "0.000000044"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 1000,
+            "utc_end": 0,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          }
+        ]
       },
       "top_provider": {
-        "context_length": 1024000,
+        "context_length": 1048576,
         "max_completion_tokens": 384000,
         "is_moderated": false
       },
@@ -6034,7 +6301,7 @@
       },
       "pricing": {
         "prompt": "0.00000004",
-        "completion": "0.00000016",
+        "completion": "0.00000032",
         "input_cache_read": "0.000000016"
       },
       "top_provider": {
@@ -6106,7 +6373,7 @@
       },
       "pricing": {
         "prompt": "0.00000004",
-        "completion": "0.00000016",
+        "completion": "0.00000032",
         "input_cache_read": "0.000000016"
       },
       "top_provider": {
@@ -15487,9 +15754,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000017",
-        "completion": "0.0000085",
-        "input_cache_read": "0.00000017"
+        "prompt": "0.0000015",
+        "completion": "0.0000075",
+        "input_cache_read": "0.00000015"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -16694,9 +16961,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000927768",
-        "completion": "0.000001855536",
-        "input_cache_read": "0.000000077314"
+        "prompt": "0.000000900798",
+        "completion": "0.000001801596",
+        "input_cache_read": "0.0000000750665"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -25387,8 +25654,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000024"
+        "prompt": "0.00000005",
+        "completion": "0.0000002",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
         "context_length": 262144,
@@ -41226,5 +41494,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-21T17:34:13.543902+00:00"
+  "updated_at": "2026-09-21T21:31:38.109524+00:00"
 }

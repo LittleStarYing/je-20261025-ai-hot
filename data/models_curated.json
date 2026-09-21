@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T17:34:13.585601",
+  "updated_at": "2026-09-21T21:31:38.152847",
   "total": 33,
   "categories": [
     {
@@ -566,15 +566,18 @@
     {
       "category": "watch",
       "source": "OpenRouter",
-      "name": "MiMo-V2.5-Pro",
+      "name": "MiMo-V2.6-Pro-UltraSpeed",
       "provider": "Xiaomi",
-      "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro",
-      "freshness": "2026-04-22",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro-ultraspeed",
+      "freshness": "2026-09-21",
       "badge": "自动发现",
       "why": "从 OpenRouter 自动发现的高关注国产模型，应该进入候选榜单",
-      "meta": "1.1M 上下文",
+      "meta": "1.0M 上下文",
       "tags": [
-        "文本"
+        "多模态",
+        "文本",
+        "图像",
+        "视频"
       ],
       "icon_url": "https://www.google.com/s2/favicons?domain=xiaomimimo.com&sz=64"
     }

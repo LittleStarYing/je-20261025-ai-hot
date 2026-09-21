@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4428-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4430-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-22 01:35:11
+🕐 **最近更新**：2026-09-22 05:32:22
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,16 +16,16 @@
 
 ## 🔥 今日热点
 
-1. [一位前会计师通过 Tabby 正在利用人工智能让会计师变得过时](https://aihot.bt199.com/news/8a06f4e34726/)
-   - Tabby 被设计为一个实时簿记界面，处理客户的文书工作，为他们提供有关其业务损益的最新数据
+1. [OpenAI 成立数学咨询小组，其 AI 解决了 100 多个开放问题](https://aihot.bt199.com/news/c06d2cf00824/)
+   - 该小组不会有放慢或重新调整 OpenAI 正在进行的数学研究的余地
    - `TechCrunch AI · 2026-09-21`
 
-2. [下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系在 TechCrunch Disrupt 2026 上发挥作用](https://aihot.bt199.com/news/719dd1e473cc/)
-   - 下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系将在 TechCrunch Disrupt 2…
+2. [Meta 的 Muse 的速度超过了 ChatGPT 的早期移动发布](https://aihot.bt199.com/news/285c3f889238/)
+   - 根据 Appfigures 的最新估计，Meta 的新人工智能代理 Muse 在美国和加拿大的下载量和每日活跃用户数超过…
    - `TechCrunch AI · 2026-09-21`
 
-3. [约翰·特努斯 (John Ternus) 能否找到苹果的下一件大事？](https://aihot.bt199.com/news/5c2e26dc6103/)
-   - 今天，我正在采访马克·古尔曼 (Mark Gurman)，他是全球消息来源最丰富的苹果记者，既担任彭博社的首席苹果记者…
+3. [加州收紧人工智能数据中心能源和用水的规定](https://aihot.bt199.com/news/83547d403e17/)
+   - 据《洛杉矶时报》早些时候报道，加利福尼亚州州长加文·纽瑟姆签署了七项法案，旨在防止人工智能数据中心将公用事业成本转嫁给居…
    - `The Verge AI · 2026-09-21`
 
 4. [iPhone 用户现在可以在苹果 2.5 亿美元 Siri AI 和解协议中提出索赔](https://aihot.bt199.com/news/93b84abf7bbd/)
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（171）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（399）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4428）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4430）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

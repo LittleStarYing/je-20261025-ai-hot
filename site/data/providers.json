@@ -15,16 +15,17 @@
     "provider_kind": "model_author",
     "source": "openrouter",
     "latest_models": [
-      "MiMo-V2.5-Pro",
-      "MiMo-V2.5"
+      "MiMo-V2.6-Pro-UltraSpeed",
+      "MiMo-V2.6-Flash",
+      "MiMo-V2.6-Pro"
     ],
-    "model_count": 2,
-    "last_updated": "2026-04-22",
+    "model_count": 5,
+    "last_updated": "2026-09-21",
     "modalities": [
-      "文本",
-      "视频"
+      "视频",
+      "文本"
     ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 MiMo-V2.5-Pro",
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 MiMo-V2.6-Pro-UltraSpeed",
     "icon_url": "https://www.google.com/s2/favicons?domain=xiaomimimo.com&sz=64"
   },
   {
