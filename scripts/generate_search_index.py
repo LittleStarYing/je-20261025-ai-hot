@@ -32,7 +32,8 @@ FIELD_KEYS = {
     'tools': ('id', 'name', 'description', 'category', 'pricing', 'tags', 'stars', 'url'),
     'models': ('name', 'display_name', 'author', 'pipeline_tag', 'url', 'likes'),
     'agents': ('name', 'description', 'type', 'pricing', 'url', 'stars'),
-    'news': ('id', 'title', 'summary', 'source', 'published', 'url', 'ai_summary'),
+    # 新闻列表页翻页时也用这份索引渲染后续页，字段要与模板输出对齐
+    'news': ('id', 'title', 'title_zh', 'summary', 'source', 'published', 'url', 'ai_summary'),
 }
 
 

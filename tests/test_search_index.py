@@ -90,5 +90,45 @@ class SearchIndexTemplateGuardTests(unittest.TestCase):
             self.assertIn('ensureSearchIndex', self._read(name))
 
 
+class PageWeightGuardTests(unittest.TestCase):
+    """守住两个曾经把页面撑大的回归点。"""
+
+    def _list_template(self):
+        return (ROOT / 'site' / 'layouts' / '_default' / 'list.html').read_text(encoding='utf-8')
+
+    def _hugo_config(self):
+        return (ROOT / 'site' / 'hugo.toml').read_text(encoding='utf-8')
+
+    def test_news_list_only_renders_initial_pages_server_side(self):
+        """4000+ 条新闻全量渲染会让 /news/ 达到 2MB 以上。"""
+        text = self._list_template()
+        self.assertIn('first $initialCount hugo.Data.news', text)
+        self.assertNotIn('range $index, $item := hugo.Data.news', text)
+
+    def test_news_list_falls_back_to_search_index(self):
+        text = self._list_template()
+        self.assertIn('ensureNewsIndex', text)
+        self.assertIn('search-index.json', text)
+
+    def test_news_index_carries_title_zh_for_later_pages(self):
+        """翻页时用索引渲染，字段缺了会和首屏内容不一致。"""
+        index = json.loads(
+            (ROOT / 'site' / 'static' / 'search-index.json').read_text(encoding='utf-8')
+        )
+        self.assertGreater(sum(1 for x in index['news'] if x.get('title_zh')), 0)
+
+    def test_hugo_config_disables_builtin_sitemap(self):
+        """static/sitemap.xml（脚本生成的 sitemapindex）不能被 Hugo 自动 sitemap 覆盖。"""
+        config = self._hugo_config()
+        self.assertIn('disableKinds', config)
+        # 必须是顶层键：TOML 中出现在第一个表头之后就会被归进该表而失效
+        top_level = []
+        for line in config.splitlines():
+            if line.lstrip().startswith('['):
+                break
+            top_level.append(line)
+        self.assertIn('disableKinds', '\n'.join(top_level))
+
+
 if __name__ == '__main__':
     unittest.main()

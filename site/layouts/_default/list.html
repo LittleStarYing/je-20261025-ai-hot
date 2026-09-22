@@ -234,10 +234,15 @@
 
 <!-- 新闻页 -->
 {{ else if in $slug "/news/" }}
+{{/* 只服务端渲染前几页：4000+ 条新闻全量输出会把 HTML 撑到 2MB 以上，
+     其余页由 JS 从 search-index.json 按需取（索引与 news.json 顺序一致）。 */}}
+{{ $perPage := 10 }}
+{{ $initialPages := 10 }}
+{{ $initialCount := mul $perPage $initialPages }}
 <div class="card">
     <div class="card-title">📰 AI 新闻 <span class="hot-badge">{{ len hugo.Data.news }} 条</span></div>
     <div id="newsList">
-    {{ range $index, $item := hugo.Data.news }}
+    {{ range $index, $item := first $initialCount hugo.Data.news }}
     <div class="hot-item news-item" data-page="{{ div $index 10 }}">
         <div class="hot-content">
             <div class="hot-title">
@@ -259,37 +264,88 @@
 </div>
 <script>
 (function(){
-    const items = document.querySelectorAll('.news-item');
-    const perPage = 10;
-    const totalPages = Math.ceil(items.length / perPage);
+    const PER_PAGE = {{ $perPage }};
+    const INITIAL_PAGES = {{ $initialPages }};
+    const TOTAL = {{ len hugo.Data.news }};
+    const TOTAL_PAGES = Math.max(1, Math.ceil(TOTAL / PER_PAGE));
+    const list = document.getElementById('newsList');
+    let indexPromise = null;
+    let dynamic = false;
     let current = 0;
 
-    function show(p) {
-        items.forEach(el => {
-            el.style.display = parseInt(el.dataset.page) === p ? '' : 'none';
-        });
-        document.getElementById('pageInfo').textContent = (p+1) + ' / ' + totalPages;
+    // 首屏只带了前 INITIAL_PAGES 页，再往后从搜索索引取。
+    function ensureNewsIndex() {
+        if (!indexPromise) {
+            indexPromise = fetch('{{ "search-index.json" | relURL }}')
+                .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .then(data => (data && data.news) || [])
+                .catch(err => { console.warn('新闻索引加载失败:', err); return null; });
+        }
+        return indexPromise;
+    }
+
+    function esc(value) {
+        return String(value == null ? '' : value).replace(/[&<>"']/g, c =>
+            ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function itemHtml(item, page) {
+        const title = item.title_zh || item.title || '';
+        const href = '{{ relURL "/news/" }}' + item.id + '/?p=' + (page + 1);
+        let html = '<div class="hot-item news-item" data-page="' + page + '"><div class="hot-content">'
+            + '<div class="hot-title"><a href="' + esc(href) + '">' + esc(title) + '</a>'
+            + (item.source ? '<span class="hot-badge">' + esc(item.source) + '</span>' : '')
+            + '</div>';
+        if (item.published) {
+            html += '<div class="hot-meta">' + esc(String(item.published).replace('T', ' ').slice(0, 16)) + '</div>';
+        }
+        if (item.ai_summary) {
+            html += '<div class="hot-meta" style="color:var(--accent)">🤖 ' + esc(item.ai_summary) + '</div>';
+        } else if (item.summary) {
+            html += '<div class="hot-meta" style="color:var(--text3)">' + esc(item.summary) + '</div>';
+        }
+        return html + '</div></div>';
+    }
+
+    function paintChrome(p) {
+        document.getElementById('pageInfo').textContent = (p + 1) + ' / ' + TOTAL_PAGES;
         document.getElementById('prevPage').disabled = p === 0;
         document.getElementById('prevPage').style.opacity = p === 0 ? '0.4' : '1';
-        document.getElementById('nextPage').disabled = p === totalPages - 1;
-        document.getElementById('nextPage').style.opacity = p === totalPages - 1 ? '0.4' : '1';
+        document.getElementById('nextPage').disabled = p === TOTAL_PAGES - 1;
+        document.getElementById('nextPage').style.opacity = p === TOTAL_PAGES - 1 ? '0.4' : '1';
         const params = new URLSearchParams(location.search);
         params.set('p', String(p + 1));
-        history.replaceState(null, '', `${location.pathname}?${params.toString()}`);
+        history.replaceState(null, '', location.pathname + '?' + params.toString());
         current = p;
+    }
+
+    async function show(p) {
+        if (!dynamic && p < INITIAL_PAGES) {
+            list.querySelectorAll('.news-item').forEach(el => {
+                el.style.display = parseInt(el.dataset.page) === p ? '' : 'none';
+            });
+            paintChrome(p);
+            return;
+        }
+        dynamic = true;
+        const news = await ensureNewsIndex();
+        if (!news) return;
+        list.innerHTML = news.slice(p * PER_PAGE, (p + 1) * PER_PAGE)
+            .map(item => itemHtml(item, p)).join('');
+        paintChrome(p);
     }
 
     window.newsPage = function(dir) {
         const next = current + dir;
-        if (next >= 0 && next < totalPages) {
-            show(next);
+        if (next < 0 || next >= TOTAL_PAGES) return;
+        show(next).then(() => {
             document.querySelector('.card').scrollIntoView({behavior:'smooth', block:'start'});
-        }
+        });
     };
 
     // 解析URL参数 ?p=2
     const params = new URLSearchParams(location.search);
-    const startPage = Math.min(Math.max(0, parseInt(params.get('p')||'1')-1), totalPages-1);
+    const startPage = Math.min(Math.max(0, parseInt(params.get('p') || '1') - 1), TOTAL_PAGES - 1);
     show(startPage);
 })();
 </script>
