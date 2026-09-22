@@ -10,14 +10,20 @@
 </div>
 
 <script>
-const allTools = {{ hugo.Data.tools | jsonify | safeJS }} || [];
+// 这里只为按 id 查出工具并跳转，没必要把整个工具库内嵌进页面
 const params = new URLSearchParams(location.search);
 const id = params.get('id');
 if (id) {
-    const tool = allTools.find(t => t.id === id || t.name.toLowerCase().replace(/[^a-z0-9]/g, '-') === id);
-    if (tool && tool.id) {
-        window.location.replace('{{ relURL "/tools/" }}' + encodeURIComponent(tool.id) + '/');
-    }
+    fetch('{{ "tools-full.json" | relURL }}')
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(tools => {
+            const tool = (tools || []).find(t =>
+                t.id === id || (t.name || '').toLowerCase().replace(/[^a-z0-9]/g, '-') === id);
+            if (tool && tool.id) {
+                window.location.replace('{{ relURL "/tools/" }}' + encodeURIComponent(tool.id) + '/');
+            }
+        })
+        .catch(err => console.warn('工具数据加载失败:', err));
 }
 </script>
 {{ end }}

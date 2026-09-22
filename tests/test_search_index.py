@@ -21,8 +21,11 @@ class SearchIndexTests(unittest.TestCase):
                 json.dumps(payload, ensure_ascii=False), encoding='utf-8'
             )
         output = root / 'site' / 'static' / 'search-index.json'
+        tools_full = root / 'site' / 'static' / 'tools-full.json'
+        # 两个输出路径都要 isolate：漏掉任何一个都会把仓库里的真实产物写坏
         with mock.patch.object(gsi, 'DATA_DIR', data_dir), \
-                mock.patch.object(gsi, 'OUTPUT', output):
+                mock.patch.object(gsi, 'OUTPUT', output), \
+                mock.patch.object(gsi, 'TOOLS_FULL_OUTPUT', tools_full):
             gsi.generate_search_index()
         return json.loads(output.read_text(encoding='utf-8'))
 

@@ -107,7 +107,8 @@
         {{ $news := hugo.Data.news }}
         {{ if $news }}
             {{ $count := 0 }}
-            {{ range $news }}
+            {{/* 只在最近的条目里挑「必读」，避免遍历全量新闻拖慢构建（新闻越多越慢） */}}
+            {{ range first 800 $news }}
                 {{ $title := lower .title }}
                 {{ $summary := lower .summary }}
                 {{ $mustReadSource := or (eq .source "机器之心") (eq .source "量子位") (eq .source "新智元") (eq .source "TechCrunch AI") (eq .source "The Verge AI") (eq .source "MIT Tech Review") (eq .source "VentureBeat AI") (eq .source "InfoQ AI") }}

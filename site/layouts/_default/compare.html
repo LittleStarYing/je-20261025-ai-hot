@@ -50,7 +50,12 @@
 </style>
 
 <script>
-const allTools = {{ hugo.Data.tools | jsonify | safeJS }} || [];
+// 工具完整数据异步加载：内嵌进 HTML 会随工具数量增长把页面撑大
+let allTools = [];
+const toolsReady = fetch('{{ "tools-full.json" | relURL }}')
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(list => { allTools = list || []; return allTools; })
+    .catch(err => { console.warn('工具数据加载失败:', err); return allTools; });
 let selected = [null, null];
 let slotCount = 2;
 
@@ -81,9 +86,10 @@ function bindInputs() {
     });
 }
 
-function showDropdown(slot, query) {
+async function showDropdown(slot, query) {
     const dropdown = document.querySelector('.compare-dropdown[data-slot="' + slot + '"]');
     if (!query || query.length < 1) { dropdown.classList.remove('show'); return; }
+    await toolsReady;
     const q = query.toLowerCase();
     const matches = allTools.filter(t => {
         const text = [t.name, t.description, t.category, ...(t.tags||[])].join(' ').toLowerCase();
@@ -95,7 +101,8 @@ function showDropdown(slot, query) {
     dropdown.classList.add('show');
 }
 
-function selectTool(slot, id) {
+async function selectTool(slot, id) {
+    await toolsReady;
     const tool = allTools.find(t => t.id === id);
     if (!tool) return;
     selected[slot] = tool;
@@ -157,13 +164,17 @@ function renderCompare() {
     document.getElementById('compareResult').style.display = '';
 }
 
-// URL参数 ?a=cursor&b=copilot
-const params = new URLSearchParams(location.search);
-const a = params.get('a'), b = params.get('b'), c = params.get('c'), d = params.get('d');
-if (a) { selectTool(0, a); }
-if (b) { selectTool(1, b); }
-if (c) { addSlot(); selectTool(2, c); }
-if (d) { addSlot(); selectTool(3, d); }
+// URL参数 ?a=cursor&b=copilot（等工具数据就绪后再回填）
+(async function initFromUrl() {
+    const params = new URLSearchParams(location.search);
+    const a = params.get('a'), b = params.get('b'), c = params.get('c'), d = params.get('d');
+    if (!a && !b && !c && !d) return;
+    await toolsReady;
+    if (a) await selectTool(0, a);
+    if (b) await selectTool(1, b);
+    if (c) { addSlot(); await selectTool(2, c); }
+    if (d) { addSlot(); await selectTool(3, d); }
+})();
 
 bindInputs();
 </script>

@@ -65,6 +65,10 @@ jobs:
         working-directory: site
         run: hugo --minify
 
+      # 页面体积门禁：超标直接失败，宁可暂停发布也不上线一个过大的页面
+      - name: Check page weight
+        run: python scripts/check_page_weight.py
+
       - name: Create CNAME
         run: echo "aihot.bt199.com" > site/public/CNAME
 

@@ -235,10 +235,14 @@
 <!-- 新闻页 -->
 {{ else if in $slug "/news/" }}
 {{/* 只服务端渲染前几页：4000+ 条新闻全量输出会把 HTML 撑到 2MB 以上，
-     其余页由 JS 从 search-index.json 按需取（索引与 news.json 顺序一致）。 */}}
+     其余页由 JS 从 search-index.json 按需取（索引与 news.json 顺序一致）。
+     翻页范围同时受索引上限约束，保证页面体积不随新闻累积增长。 */}}
 {{ $perPage := 10 }}
 {{ $initialPages := 10 }}
 {{ $initialCount := mul $perPage $initialPages }}
+{{ $newsIndexLimit := 5000 }}
+{{ $newsTotal := len hugo.Data.news }}
+{{ if gt $newsTotal $newsIndexLimit }}{{ $newsTotal = $newsIndexLimit }}{{ end }}
 <div class="card">
     <div class="card-title">📰 AI 新闻 <span class="hot-badge">{{ len hugo.Data.news }} 条</span></div>
     <div id="newsList">
@@ -266,7 +270,7 @@
 (function(){
     const PER_PAGE = {{ $perPage }};
     const INITIAL_PAGES = {{ $initialPages }};
-    const TOTAL = {{ len hugo.Data.news }};
+    const TOTAL = {{ $newsTotal }};
     const TOTAL_PAGES = Math.max(1, Math.ceil(TOTAL / PER_PAGE));
     const list = document.getElementById('newsList');
     let indexPromise = null;
