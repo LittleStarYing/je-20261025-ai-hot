@@ -20,7 +20,7 @@ ai_summary = "那些可能从人工智能热潮中赚到最多钱的人似乎认
 summary = "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades."
 summary_zh = "那些可能从人工智能热潮中赚到最多钱的人似乎认为自己比其他人更了解，包括几十年来研究和工作人工智能的研究人员。在周日早上接受哥伦比亚广播公司采访时，他声称人工智能终结的“可能性是 0%” […]"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->
