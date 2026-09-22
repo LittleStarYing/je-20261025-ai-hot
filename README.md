@@ -2,7 +2,7 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4462-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4462-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
@@ -96,7 +96,7 @@
 
 ## 📂 分类入口
 
-- [🛠️ AI工具（171）](https://aihot.bt199.com/tools/)
+- [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（399）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
 - [📰 AI新闻（4462）](https://aihot.bt199.com/news/)
@@ -139,6 +139,7 @@
 ---
 
 MIT License
+
 
 
 

@@ -3631,5 +3631,149 @@
     "stars": 2870,
     "score": 50,
     "icon_url": "https://github.com/decolua.png?size=128"
+  },
+  {
+    "id": "resumeai",
+    "name": "ResumeAI",
+    "url": "https://withresumeai.com/",
+    "description": "免费 ATS 简历检查器，粘贴简历即得独立评分与改进建议",
+    "category": "简历",
+    "pricing": "免费 + 订阅",
+    "free_quota": "匿名每日 3 次 / 免费账号每日 10 次",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#ats",
+      "#free"
+    ],
+    "use_cases": "ATS 兼容性检查、简历评分、按职位描述做针对性优化",
+    "pros": [
+      "免费额度公开透明",
+      "无需注册即可试用",
+      "可粘贴职位描述做匹配反馈"
+    ],
+    "cons": [
+      "聚焦 ATS 兼容性，不做完整排版设计",
+      "中文简历效果需自行验证"
+    ],
+    "best_for": [
+      "求职者",
+      "转行人群",
+      "应届生"
+    ],
+    "alternatives": [
+      "jobscan",
+      "rezi",
+      "teal"
+    ],
+    "score": 60,
+    "icon_url": "https://www.google.com/s2/favicons?domain=withresumeai.com&sz=64"
+  },
+  {
+    "id": "remio",
+    "name": "Remio",
+    "url": "https://remio.ai/",
+    "description": "本地优先的 AI 个人知识库，把文件、网页、会议、邮件汇成可检索的本地索引",
+    "category": "办公",
+    "pricing": "免费 + 订阅",
+    "free_quota": "桌面端基础功能免费",
+    "difficulty": 2,
+    "tags": [
+      "#knowledge-base",
+      "#local-first",
+      "#productivity"
+    ],
+    "use_cases": "个人知识管理、资料检索、会议与网页内容归档",
+    "pros": [
+      "本地索引与向量，数据留在本机",
+      "覆盖文件/网页/录音/邮件多种来源",
+      "有 Windows 与 Mac 桌面端"
+    ],
+    "cons": [
+      "需要本地安装",
+      "中文资料场景的成熟度待观察"
+    ],
+    "best_for": [
+      "知识工作者",
+      "研究者",
+      "隐私敏感用户"
+    ],
+    "alternatives": [
+      "notebooklm",
+      "notion-ai"
+    ],
+    "score": 65,
+    "icon_url": "https://www.google.com/s2/favicons?domain=remio.ai&sz=64"
+  },
+  {
+    "id": "skillhub-tanco",
+    "name": "唐可创研 SkillHub",
+    "url": "https://skillhub.cn/",
+    "description": "中文 Agent 技能市场，提供可复用的 Agent 工作流组件",
+    "category": "Agent",
+    "pricing": "免费 + 付费 Skill",
+    "free_quota": "公开技能可浏览",
+    "difficulty": 2,
+    "tags": [
+      "#agent",
+      "#skills",
+      "#workflow",
+      "#chinese"
+    ],
+    "use_cases": "Agent 工作流搭建、技能复用、任务验收与交接规范",
+    "pros": [
+      "中文 Agent 技能组件，覆盖需求理解、证据核验、验收标准等环节",
+      "技能可组合复用"
+    ],
+    "cons": [
+      "生态较新，长期维护情况待观察",
+      "部分技能需付费"
+    ],
+    "best_for": [
+      "Agent 开发者",
+      "提示词工程师",
+      "协作团队"
+    ],
+    "alternatives": [
+      "coze",
+      "dify"
+    ],
+    "score": 55,
+    "icon_url": "https://www.google.com/s2/favicons?domain=skillhub.cn&sz=64"
+  },
+  {
+    "id": "ideahunter",
+    "name": "IdeaHunter",
+    "url": "https://ideahunter.today/",
+    "description": "用公开信号与买家痛点佐证创业点子的研究工具，输出需求证据、MVP 范围与变现路径",
+    "category": "效率",
+    "pricing": "免费 + 订阅",
+    "free_quota": "freemium",
+    "difficulty": 1,
+    "tags": [
+      "#founder",
+      "#research",
+      "#validation"
+    ],
+    "use_cases": "创业点子验证、需求证据收集、MVP 范围与变现路径梳理",
+    "pros": [
+      "每条点子附带来源证据而非空想",
+      "给出 MVP 范围与首个验证动作"
+    ],
+    "cons": [
+      "结论依赖公开信号，需自行复核",
+      "偏英文市场语境"
+    ],
+    "best_for": [
+      "独立开发者",
+      "创业者",
+      "产品经理"
+    ],
+    "alternatives": [
+      "perplexity",
+      "kagi"
+    ],
+    "score": 55,
+    "icon_url": "https://www.google.com/s2/favicons?domain=ideahunter.today&sz=64"
   }
 ]
