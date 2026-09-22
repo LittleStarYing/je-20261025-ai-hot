@@ -20,7 +20,7 @@ ai_summary = "那么...您的体重分数是多少？"
 summary = "So ... what's your In the Weights score?"
 summary_zh = "那么...您的体重分数是多少？"
 tags = []
-list_page = 412
+list_page = 413
 +++
 
 <!-- AUTO-GENERATED: news page -->

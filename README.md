@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4446-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4462-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-22 18:43:25
+🕐 **最近更新**：2026-09-23 00:04:17
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [建造苹果商店的人并不相信硅谷对人工智能购物的赌注](https://aihot.bt199.com/news/502072b10c62/)
-   - 苹果专卖店建筑师罗恩·约翰逊表示，苹果的秘密武器一直是它的员工
-   - `TechCrunch AI · 2026-09-21`
+1. [每个创始人都应该在 TechCrunch Disrupt 2026 议程上参加五场人工智能安全会议](https://aihot.bt199.com/news/8fdc384c018e/)
+   - 在 TechCrunch Disrupt 2026 上，AI 舞台和现实世界 AI 舞台的五场会议涵盖了 AI 安全，来…
+   - `TechCrunch AI · 2026-09-22`
 
-2. [OpenAI 成立数学咨询小组，其 AI 解决了 100 多个开放问题](https://aihot.bt199.com/news/c06d2cf00824/)
-   - 该小组不会有放慢或重新调整 OpenAI 正在进行的数学研究的余地
-   - `TechCrunch AI · 2026-09-21`
+2. [AstroForge 正在让人工智能指挥其下一代航天器](https://aihot.bt199.com/news/63278f8d0a1c/)
+   - Autonomy-1 将有一个基于变压器的小型人工智能模型来负责空间探测器
+   - `TechCrunch AI · 2026-09-22`
 
-3. [加州收紧人工智能数据中心能源和用水的规定](https://aihot.bt199.com/news/83547d403e17/)
-   - 据《洛杉矶时报》早些时候报道，加利福尼亚州州长加文·纽瑟姆签署了七项法案，旨在防止人工智能数据中心将公用事业成本转嫁给居…
-   - `The Verge AI · 2026-09-21`
+3. [特朗普称美国正式将人工智能重新命名为“超级智能”](https://aihot.bt199.com/news/c0fa20c79506/)
+   - 周二上午，唐纳德·特朗普在联合国大会上发表讲话，谴责伊朗、“全球主义者”和变性人，同时还声称美国现在“正式”将人工智能更…
+   - `The Verge AI · 2026-09-22`
 
-4. [iPhone 用户现在可以在苹果 2.5 亿美元 Siri AI 和解协议中提出索赔](https://aihot.bt199.com/news/93b84abf7bbd/)
-   - 苹果公司将支付 2.5 亿美元来解决有关其未能提供人工智能升级版 Siri 的索赔——现在，符合条件的 iPhone 用…
-   - `The Verge AI · 2026-09-21`
+4. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
+   - 过去 25 年来，美国花费数十亿美元沿南部边境修建了监视塔“虚拟墙”，承诺这些塔将帮助发现和逮捕越境者并拯救生命。但麻省…
+   - `MIT Tech Review · 2026-09-22`
 
-5. [下载：调查美国边境“虚​​拟墙”的死亡事件](https://aihot.bt199.com/news/06d3f809c0b2/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。美国在边境监控上花费了数十亿美元。为…
-   - `MIT Tech Review · 2026-09-21`
+5. [下载：为什么人工智能的最新突破和担忧可能更多是炒作而不是现实](https://aihot.bt199.com/news/69b662349cd9/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。不要被今年夏天的人工智能炒作所愚弄—…
+   - `MIT Tech Review · 2026-09-22`
 
-6. [解决美国边境“虚​​拟墙”失败问题的四种方法](https://aihot.bt199.com/news/b4add5777c43/)
-   - 《麻省理工科技评论》今天发表了我们对美国政府沿美墨边境安装的监视塔“虚拟墙”附近有多少人死亡的调查。我们发现有人在不被发…
-   - `MIT Tech Review · 2026-09-21`
+6. [元补丁 Muse 漏洞让攻击者控制 AI 代理](https://aihot.bt199.com/news/d25222ba0d0d/)
+   - 在发现零日漏洞后，Meta 为其 Muse macOS 应用程序发布了补丁，该漏洞可能允许某人控制 AI 代理。安全研究…
+   - `The Verge AI · 2026-09-22`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（171）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（399）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4446）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4462）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

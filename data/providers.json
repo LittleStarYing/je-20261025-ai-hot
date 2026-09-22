@@ -48,12 +48,12 @@
       "GPT-6 Astra (batch)",
       "GPT-6 Astra Pro"
     ],
-    "model_count": 90,
+    "model_count": 91,
     "last_updated": "2026-09-04",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 90 个该作者/厂商相关模型，最近更新为 GPT-6 Astra",
+    "live_summary": "OpenRouter 已收录 91 个该作者/厂商相关模型，最近更新为 GPT-6 Astra",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
   },
@@ -127,16 +127,16 @@
     "source": "openrouter",
     "latest_models": [
       "DeepSeek V4.1 Flash",
-      "DeepSeek V4 Flash Vision Exp",
-      "DeepSeek V4 Flash Vision Exp (batch)"
+      "DeepSeek V4.1 Flash (batch)",
+      "DeepSeek V4 Flash Vision Exp"
     ],
-    "model_count": 18,
+    "model_count": 16,
     "last_updated": "2026-09-10",
     "modalities": [
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 18 个该作者/厂商相关模型，最近更新为 DeepSeek V4.1 Flash",
+    "live_summary": "OpenRouter 已收录 16 个该作者/厂商相关模型，最近更新为 DeepSeek V4.1 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64"
   },
@@ -260,17 +260,17 @@
     "source": "openrouter",
     "latest_models": [
       "Kimi K3",
-      "Kimi K2.7 Code",
-      "Kimi K2.6"
+      "Kimi K3 (batch)",
+      "Kimi K2.7 Code"
     ],
-    "model_count": 7,
+    "model_count": 8,
     "last_updated": "2026-07-16",
     "modalities": [
       "视频",
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 Kimi K3",
+    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 Kimi K3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=moonshot.cn&sz=64"
   },
@@ -292,13 +292,13 @@
       "GLM 5.3 Flash",
       "GLM 5.3 Flash (batch)"
     ],
-    "model_count": 19,
+    "model_count": 18,
     "last_updated": "2026-09-18",
     "modalities": [
       "视频",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 19 个该作者/厂商相关模型，最近更新为 GLM 5.3 FlashX",
+    "live_summary": "OpenRouter 已收录 18 个该作者/厂商相关模型，最近更新为 GLM 5.3 FlashX",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=z.ai&sz=64"
   },
