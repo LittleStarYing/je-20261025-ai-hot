@@ -20,7 +20,7 @@ ai_summary = "在最近备受瞩目的黑客事件引发人工智能可能“杀
 summary = "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing."
 summary_zh = "在最近备受瞩目的黑客事件引发人工智能可能“杀死所有人类”的担忧之前，我们的能源系统已经非常容易受到网络攻击，而且这种风险正在不断增加。 “我们一直是猎物。我们只是在捕食者的胃口下生存，”执行官约书亚·科曼 (Joshua Corman)"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

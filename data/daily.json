@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-21T21:31:38.236185",
-  "date": "2026-09-21",
+  "updated_at": "2026-09-22T02:38:36.939757",
+  "date": "2026-09-22",
   "spotlight": {
-    "id": "langchain",
-    "name": "LangChain",
-    "url": "https://langchain.com",
+    "id": "autogen",
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
     "type": "tool",
-    "description": "最流行的 LLM 应用开发框架",
+    "description": "微软出品的多 Agent 协作框架",
     "pricing": "开源免费",
     "category": "Agent"
   },
   "alternates": [
     {
-      "name": "Manus",
-      "url": "https://manus.im",
+      "name": "Genspark",
+      "url": "https://www.genspark.ai",
       "type": "agent",
-      "description": "通用AI Agent，能自主完成复杂任务链",
-      "pricing": "免费试用",
-      "category": "通用 Agent"
+      "description": "AI搜索引擎+Agent，自动搜索分析执行任务",
+      "pricing": "免费",
+      "category": "研究 Agent"
     },
     {
-      "name": "Agentbigbrain",
-      "url": "https://github.com/AgentBigBrain/AgentBigBrain",
+      "name": "Ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
       "type": "agent",
-      "description": "强调强约束、治理和可验证执行的自主 AI 助手框架，让 Agent 的每个动作都可控可审计。",
+      "description": "开源 RAG 引擎，支持知识库检索增强生成，适合构建企业问答和文档型 AI Agent。",
       "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "category": "AI Agent"
     },
     {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "url": "https://perplexity.ai",
+      "id": "秘塔搜索",
+      "name": "秘塔 AI 搜索",
+      "url": "https://metaso.cn",
       "type": "tool",
-      "description": "AI 搜索引擎，实时联网回答问题",
-      "pricing": "免费 + Pro $20/月",
+      "description": "国产 AI 搜索引擎，中文体验优秀",
+      "pricing": "免费",
       "category": "搜索"
     }
   ]
