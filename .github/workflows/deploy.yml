@@ -53,7 +53,10 @@ jobs:
           PY
 
       - name: Sync data to Hugo
-        run: cp -r data/* site/data/
+        # site/data 不入库（见 .gitignore），构建前从 data/ 同步；目录可能不存在，先创建
+        run: |
+          mkdir -p site/data
+          cp -r data/* site/data/
 
       - name: Verify no secrets before build
         run: python scripts/sanitize_secrets.py --check

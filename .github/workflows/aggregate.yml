@@ -41,7 +41,9 @@ jobs:
         run: |
           git config user.name "AI热榜 Bot"
           git config user.email "bot@airebang.com"
-          git add data/ site/data/ README.md site/content/news/ site/content/tools/ site/static/ scripts/ .github/workflows/aggregate.yml
+          # site/data/ 不再入库（与 data/ 完全重复，会让仓库体积翻倍），
+          # deploy 时会从 data/ 同步，所以这里只提交 data/。
+          git add data/ README.md site/content/news/ site/content/tools/ site/static/ scripts/ .github/workflows/aggregate.yml
           if git diff --staged --quiet; then
             echo "No changes"
           else

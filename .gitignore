@@ -6,3 +6,8 @@ site/public/
 site/resources/
 .DS_Store
 .hugo_build.lock
+
+# site/data 只是构建前从 data/ 复制出来的副本（内容逐字节一致），
+# 一起入库会让每次数据更新提交双份 35MB，仓库体积直接翻倍。
+# 构建流程见 .github/workflows/deploy.yml 的 Sync data to Hugo 步骤。
+site/data/*.json
