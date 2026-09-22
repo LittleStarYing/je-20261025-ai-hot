@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "AI有可能终结我们所有人"
 summary_zh = ""
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

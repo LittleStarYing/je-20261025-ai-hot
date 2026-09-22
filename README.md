@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-399-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4462-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4478-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-23 00:04:17
+🕐 **最近更新**：2026-09-23 04:45:56
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [每个创始人都应该在 TechCrunch Disrupt 2026 议程上参加五场人工智能安全会议](https://aihot.bt199.com/news/8fdc384c018e/)
-   - 在 TechCrunch Disrupt 2026 上，AI 舞台和现实世界 AI 舞台的五场会议涵盖了 AI 安全，来…
+1. [高通推出两款新智能手机芯片 重点关注人工智能](https://aihot.bt199.com/news/f5417683ef6a/)
+   - 高通表示，其新的顶级芯片可以在本地运行30B mix-of-expert模型
    - `TechCrunch AI · 2026-09-22`
 
-2. [AstroForge 正在让人工智能指挥其下一代航天器](https://aihot.bt199.com/news/63278f8d0a1c/)
-   - Autonomy-1 将有一个基于变压器的小型人工智能模型来负责空间探测器
+2. [Meta 承认 Muse 与 OpenClaw 的相似并非巧合](https://aihot.bt199.com/news/176f90142d04/)
+   - Meta 表示 Muse 是从头开始构建的，但也承认人工智能助手“深受 OpenClaw 的启发”——甚至包括它的一些工…
    - `TechCrunch AI · 2026-09-22`
 
-3. [特朗普称美国正式将人工智能重新命名为“超级智能”](https://aihot.bt199.com/news/c0fa20c79506/)
-   - 周二上午，唐纳德·特朗普在联合国大会上发表讲话，谴责伊朗、“全球主义者”和变性人，同时还声称美国现在“正式”将人工智能更…
+3. [安德森·霍洛维茨 (Andreessen Horowitz) 正在推出一所“学院”，无需做任何功课，并与 Palantir、谷歌和 Meta 建立合作伙伴关系](https://aihot.bt199.com/news/262004370c29/)
+   - 风险投资公司 Andreessen Horowitz (a16z) 正在创建一所“学院”，定位为年轻人建立或加入硅谷初创…
    - `The Verge AI · 2026-09-22`
 
-4. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
+4. [Anthropic 推出 Claude Opus 5.5，网络安全保障更严格](https://aihot.bt199.com/news/3b73af80ba55/)
+   - Anthropic 表示，在最近发生的流氓人工智能黑客事件之后，其新的 Claude Opus 5.5 型号配备了更强大…
+   - `The Verge AI · 2026-09-22`
+
+5. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
    - 过去 25 年来，美国花费数十亿美元沿南部边境修建了监视塔“虚拟墙”，承诺这些塔将帮助发现和逮捕越境者并拯救生命。但麻省…
    - `MIT Tech Review · 2026-09-22`
 
-5. [下载：为什么人工智能的最新突破和担忧可能更多是炒作而不是现实](https://aihot.bt199.com/news/69b662349cd9/)
+6. [下载：为什么人工智能的最新突破和担忧可能更多是炒作而不是现实](https://aihot.bt199.com/news/69b662349cd9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。不要被今年夏天的人工智能炒作所愚弄—…
    - `MIT Tech Review · 2026-09-22`
-
-6. [元补丁 Muse 漏洞让攻击者控制 AI 代理](https://aihot.bt199.com/news/d25222ba0d0d/)
-   - 在发现零日漏洞后，Meta 为其 Muse macOS 应用程序发布了补丁，该漏洞可能允许某人控制 AI 代理。安全研究…
-   - `The Verge AI · 2026-09-22`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -48,13 +48,13 @@
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [Meta 的特权人工智能助手 Muse 存在严重的 0day](https://aihot.bt199.com/news/64b9f3c8af56/)
+9. [微软破坏了人工智能辅助平台，导致 12,000 人受到威胁](https://aihot.bt199.com/news/90435c878e92/)
+   - EvilTokens 提供了一个端到端平台，使大规模妥协更快、更容易
+   - `Ars Technica AI · 2026-09-22`
+
+10. [Meta 的特权人工智能助手 Muse 存在严重的 0day](https://aihot.bt199.com/news/64b9f3c8af56/)
    - 简单的 ClickFix 攻击只是完全劫持新代理的一种方法
    - `Ars Technica AI · 2026-09-21`
-
-10. [一名卧底谷歌分析师渗透到一个臭名昭著的供应链黑客团伙中](https://aihot.bt199.com/news/a4e767008549/)
-   - 谷歌的威胁情报小组表示，TeamPCP 的核心圈子里有内奸
-   - `Ars Technica AI · 2026-09-20`
 
 
 ## 🤖 AI 简报
@@ -97,9 +97,9 @@
 ## 📂 分类入口
 
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
-- [🧠 AI模型（399）](https://aihot.bt199.com/models/)
+- [🧠 AI模型（400）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4462）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4478）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
