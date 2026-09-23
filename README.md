@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4488-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4502-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-23 10:40:26
+🕐 **最近更新**：2026-09-23 18:35:39
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,28 +16,28 @@
 
 ## 🔥 今日热点
 
-1. [TechCrunch 创始人峰会议程揭晓：11 月 4 日在波士顿解锁筹款、招聘和人工智能见解](https://aihot.bt199.com/news/5f66f04bf85f/)
+1. [“我们已经在进行昨天的战斗”：希腊总理坦诚谈论人工智能](https://aihot.bt199.com/news/f47b4ba2b456/)
+   - 大多数贸易代表团领导人都坚持立场，但当我本周采访希腊总理基里亚科斯·米佐塔基斯时，他也承认没有政府为人工智能即将要做的事…
+   - `TechCrunch AI · 2026-09-23`
+
+2. [TechCrunch 创始人峰会议程揭晓：11 月 4 日在波士顿解锁筹款、招聘和人工智能见解](https://aihot.bt199.com/news/5f66f04bf85f/)
    - 创始人不应该以最惨痛的方式吸取最惨痛的教训。 TechCrunch 创始人峰会旨在让创办公司的挑战变得更容易，让创业的高…
    - `TechCrunch AI · 2026-09-22`
 
-2. [随着人工智能训练数据需求的激增，Snorkel AI 估值增加两倍至 $3.5B](https://aihot.bt199.com/news/84a303211cd2/)
-   - 这家成立七年的初创公司已筹集了 3.5 亿美元的 E 轮资金，以推动其数据即服务方法
-   - `TechCrunch AI · 2026-09-22`
+3. [智能眼镜已经在印度造成严重破坏](https://aihot.bt199.com/news/195d2c232c1a/)
+   - 当舒布南 (Shubnam) 正在收拾行李准备搬进新家时，他们的朋友给他们发了一段 Instagram 视频。这段视频只…
+   - `MIT Tech Review · 2026-09-23`
 
-3. [OpenAI 希望向精英数学家咨询如何不再失手](https://aihot.bt199.com/news/dca8e921be10/)
+4. [OpenAI 希望向精英数学家咨询如何不再失手](https://aihot.bt199.com/news/dca8e921be10/)
    - 在将一系列令人惊叹的数学结果变成一场声誉危机后，OpenAI 正在咨询人类数学家，以帮助它找出一条不那么灾难性的前进道路…
    - `The Verge AI · 2026-09-23`
 
-4. [Rabbit 的新 AI 代理不需要 R1 即可运行](https://aihot.bt199.com/news/d0716c4b578f/)
+5. [Rabbit 的新 AI 代理不需要 R1 即可运行](https://aihot.bt199.com/news/d0716c4b578f/)
    - 据《连线》早些时候报道，Rabbit 是 R1 设备背后的公司，它正在推出一款独立的人工智能代理，你不需要它的硬件就可以…
    - `The Verge AI · 2026-09-22`
 
-5. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
+6. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
    - 过去 25 年来，美国花费数十亿美元沿南部边境修建了监视塔“虚拟墙”，承诺这些塔将帮助发现和逮捕越境者并拯救生命。但麻省…
-   - `MIT Tech Review · 2026-09-22`
-
-6. [下载：为什么人工智能的最新突破和担忧可能更多是炒作而不是现实](https://aihot.bt199.com/news/69b662349cd9/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。不要被今年夏天的人工智能炒作所愚弄—…
    - `MIT Tech Review · 2026-09-22`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（400）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4488）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4502）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
