@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果"
 summary_zh = ""
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "严文韬，1991年生，高瓴创投合伙人"
 summary_zh = ""
 tags = []
-list_page = 33
+list_page = 34
 +++
 
 <!-- AUTO-GENERATED: news page -->

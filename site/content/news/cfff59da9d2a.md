@@ -20,7 +20,7 @@ ai_summary = "亚马逊拥有自己的基础模型群，以及互联网上最受
 summary = "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet."
 summary_zh = "亚马逊拥有自己的基础模型群，以及互联网上最受欢迎的推理平台之一。既然他们没有法律义务打开 Muse 的大门，他们为什么要这么做呢？"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

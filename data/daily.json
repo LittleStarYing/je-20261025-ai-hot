@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-09-22T20:44:47.347911",
-  "date": "2026-09-22",
+  "updated_at": "2026-09-23T02:39:35.924917",
+  "date": "2026-09-23",
   "spotlight": {
-    "id": "autogen",
-    "name": "AutoGen",
-    "url": "https://github.com/microsoft/autogen",
+    "id": "crewai",
+    "name": "CrewAI",
+    "url": "https://crewai.com",
     "type": "tool",
-    "description": "微软出品的多 Agent 协作框架",
-    "pricing": "开源免费",
+    "description": "多 Agent 协作框架，简单易用",
+    "pricing": "开源 + 企业版",
     "category": "Agent"
   },
   "alternates": [
     {
-      "name": "Genspark",
-      "url": "https://www.genspark.ai",
+      "name": "Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
       "type": "agent",
-      "description": "AI搜索引擎+Agent，自动搜索分析执行任务",
-      "pricing": "免费",
-      "category": "研究 Agent"
+      "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
+      "pricing": "开源 + Cloud",
+      "category": "平台 Agent"
     },
     {
-      "name": "Ragflow",
-      "url": "https://github.com/infiniflow/ragflow",
+      "name": "Cc Switch",
+      "url": "https://github.com/farion1231/cc-switch",
       "type": "agent",
-      "description": "开源 RAG 引擎，支持知识库检索增强生成，适合构建企业问答和文档型 AI Agent。",
+      "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
       "pricing": "开源免费",
-      "category": "AI Agent"
+      "category": "编程 Agent"
     },
     {
-      "id": "秘塔搜索",
-      "name": "秘塔 AI 搜索",
-      "url": "https://metaso.cn",
+      "id": "gamma",
+      "name": "Gamma",
+      "url": "https://gamma.app",
       "type": "tool",
-      "description": "国产 AI 搜索引擎，中文体验优秀",
-      "pricing": "免费",
-      "category": "搜索"
+      "description": "AI 一键生成 PPT/演示文稿",
+      "pricing": "免费 + Plus $10/月",
+      "category": "办公"
     }
   ]
 }

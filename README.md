@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4478-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4488-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-23 04:45:56
+🕐 **最近更新**：2026-09-23 10:40:26
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [高通推出两款新智能手机芯片 重点关注人工智能](https://aihot.bt199.com/news/f5417683ef6a/)
-   - 高通表示，其新的顶级芯片可以在本地运行30B mix-of-expert模型
+1. [TechCrunch 创始人峰会议程揭晓：11 月 4 日在波士顿解锁筹款、招聘和人工智能见解](https://aihot.bt199.com/news/5f66f04bf85f/)
+   - 创始人不应该以最惨痛的方式吸取最惨痛的教训。 TechCrunch 创始人峰会旨在让创办公司的挑战变得更容易，让创业的高…
    - `TechCrunch AI · 2026-09-22`
 
-2. [Meta 承认 Muse 与 OpenClaw 的相似并非巧合](https://aihot.bt199.com/news/176f90142d04/)
-   - Meta 表示 Muse 是从头开始构建的，但也承认人工智能助手“深受 OpenClaw 的启发”——甚至包括它的一些工…
+2. [随着人工智能训练数据需求的激增，Snorkel AI 估值增加两倍至 $3.5B](https://aihot.bt199.com/news/84a303211cd2/)
+   - 这家成立七年的初创公司已筹集了 3.5 亿美元的 E 轮资金，以推动其数据即服务方法
    - `TechCrunch AI · 2026-09-22`
 
-3. [安德森·霍洛维茨 (Andreessen Horowitz) 正在推出一所“学院”，无需做任何功课，并与 Palantir、谷歌和 Meta 建立合作伙伴关系](https://aihot.bt199.com/news/262004370c29/)
-   - 风险投资公司 Andreessen Horowitz (a16z) 正在创建一所“学院”，定位为年轻人建立或加入硅谷初创…
-   - `The Verge AI · 2026-09-22`
+3. [OpenAI 希望向精英数学家咨询如何不再失手](https://aihot.bt199.com/news/dca8e921be10/)
+   - 在将一系列令人惊叹的数学结果变成一场声誉危机后，OpenAI 正在咨询人类数学家，以帮助它找出一条不那么灾难性的前进道路…
+   - `The Verge AI · 2026-09-23`
 
-4. [Anthropic 推出 Claude Opus 5.5，网络安全保障更严格](https://aihot.bt199.com/news/3b73af80ba55/)
-   - Anthropic 表示，在最近发生的流氓人工智能黑客事件之后，其新的 Claude Opus 5.5 型号配备了更强大…
+4. [Rabbit 的新 AI 代理不需要 R1 即可运行](https://aihot.bt199.com/news/d0716c4b578f/)
+   - 据《连线》早些时候报道，Rabbit 是 R1 设备背后的公司，它正在推出一款独立的人工智能代理，你不需要它的硬件就可以…
    - `The Verge AI · 2026-09-22`
 
 5. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（400）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4478）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4488）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
