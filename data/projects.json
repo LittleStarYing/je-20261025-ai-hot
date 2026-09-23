@@ -10352,6 +10352,38 @@
     "collected_at": "2026-09-14T02:38:05.967530"
   },
   {
+    "id": "github-1361592671",
+    "name": "openapi/discussions",
+    "display_name": "discussions",
+    "url": "https://github.com/openapi/discussions",
+    "description": "💬 The community space for @openapi — APIs, open source, ideas, projects and conversations.",
+    "stars": 9,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai",
+      "api",
+      "api-community",
+      "api-design",
+      "api-development",
+      "artificial-intelligence",
+      "certified-api",
+      "community",
+      "developers",
+      "discussions",
+      "llm",
+      "open-source",
+      "open-source-ai",
+      "openapi",
+      "rag"
+    ],
+    "created_at": "2026-09-08T15:49:32Z",
+    "updated_at": "2026-09-23T14:10:13Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-23T15:52:54.316736"
+  },
+  {
     "id": "github-1188906847",
     "name": "hackyguru/clawcage",
     "display_name": "clawcage",

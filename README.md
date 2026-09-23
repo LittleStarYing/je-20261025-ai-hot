@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4502-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4513-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-23 18:35:39
+🕐 **最近更新**：2026-09-23 23:54:39
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [“我们已经在进行昨天的战斗”：希腊总理坦诚谈论人工智能](https://aihot.bt199.com/news/f47b4ba2b456/)
-   - 大多数贸易代表团领导人都坚持立场，但当我本周采访希腊总理基里亚科斯·米佐塔基斯时，他也承认没有政府为人工智能即将要做的事…
+1. [YouTube Music 通过新的 AI 功能增强对话性](https://aihot.bt199.com/news/ab0b2d96bb33/)
+   - YouTube 正在为 YouTube Music 添加新的人工智能功能，旨在让听众更轻松地发现音乐、探索艺术家以及查找…
    - `TechCrunch AI · 2026-09-23`
 
-2. [TechCrunch 创始人峰会议程揭晓：11 月 4 日在波士顿解锁筹款、招聘和人工智能见解](https://aihot.bt199.com/news/5f66f04bf85f/)
-   - 创始人不应该以最惨痛的方式吸取最惨痛的教训。 TechCrunch 创始人峰会旨在让创办公司的挑战变得更容易，让创业的高…
-   - `TechCrunch AI · 2026-09-22`
+2. [TechCrunch Disrupt 2026 上的 StrictlyVC：深入了解风险投资规则的变化](https://aihot.bt199.com/news/a8a41c2fafee/)
+   - StrictlyVC 加入 TechCrunch Disrupt 2026，讨论人工智能带来的不断变化的风险投资格局。获…
+   - `TechCrunch AI · 2026-09-23`
 
-3. [智能眼镜已经在印度造成严重破坏](https://aihot.bt199.com/news/195d2c232c1a/)
-   - 当舒布南 (Shubnam) 正在收拾行李准备搬进新家时，他们的朋友给他们发了一段 Instagram 视频。这段视频只…
-   - `MIT Tech Review · 2026-09-23`
-
-4. [OpenAI 希望向精英数学家咨询如何不再失手](https://aihot.bt199.com/news/dca8e921be10/)
-   - 在将一系列令人惊叹的数学结果变成一场声誉危机后，OpenAI 正在咨询人类数学家，以帮助它找出一条不那么灾难性的前进道路…
+3. [YouTube 正在构建人工智能创作者工具，几乎可以为他们做所有事情](https://aihot.bt199.com/news/8909ad75f4c2/)
+   - 内容创作者的部分工作就是弄清楚如何将他们的作品呈现在大多数人面前。破解（或对抗）算法历来让创作者感到沮丧，但 YouTu…
    - `The Verge AI · 2026-09-23`
 
-5. [Rabbit 的新 AI 代理不需要 R1 即可运行](https://aihot.bt199.com/news/d0716c4b578f/)
-   - 据《连线》早些时候报道，Rabbit 是 R1 设备背后的公司，它正在推出一款独立的人工智能代理，你不需要它的硬件就可以…
-   - `The Verge AI · 2026-09-22`
+4. [下载：印度智能眼镜的威胁和人工智能的万亿美元赌博](https://aihot.bt199.com/news/3f94f55217dd/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。智能眼镜已经在印度造成严重破坏 当…
+   - `MIT Tech Review · 2026-09-23`
+
+5. [OpenAI 在即将发布的公告之前任命了 Patreon 的关键高管](https://aihot.bt199.com/news/9767b09c228a/)
+   - OpenAI 聘请了三名前 Patreon 高管来为创作者制定产品战略。 13 年前创建创作者订阅平台后，联合创始人兼技…
+   - `The Verge AI · 2026-09-23`
 
 6. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
    - 过去 25 年来，美国花费数十亿美元沿南部边境修建了监视塔“虚拟墙”，承诺这些塔将帮助发现和逮捕越境者并拯救生命。但麻省…
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（400）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4502）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4513）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
