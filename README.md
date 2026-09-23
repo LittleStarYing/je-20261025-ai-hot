@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4513-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4521-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-23 23:54:39
+🕐 **最近更新**：2026-09-24 04:57:45
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [YouTube Music 通过新的 AI 功能增强对话性](https://aihot.bt199.com/news/ab0b2d96bb33/)
-   - YouTube 正在为 YouTube Music 添加新的人工智能功能，旨在让听众更轻松地发现音乐、探索艺术家以及查找…
+1. [Enveda 获得 3.11 亿美元融资，将更多源自自然的人工智能药物纳入临床试验](https://aihot.bt199.com/news/237e7ef9dd42/)
+   - 该轮融资对这家 AI 生物技术公司的估值为 20 亿美元。目前，该公司正在测试治疗皮肤病并在停用 GLP-1 后保持体重…
    - `TechCrunch AI · 2026-09-23`
 
-2. [TechCrunch Disrupt 2026 上的 StrictlyVC：深入了解风险投资规则的变化](https://aihot.bt199.com/news/a8a41c2fafee/)
-   - StrictlyVC 加入 TechCrunch Disrupt 2026，讨论人工智能带来的不断变化的风险投资格局。获…
+2. [ChatGPT 移动应用获得基于语音的代理功能](https://aihot.bt199.com/news/3ecdce7d836a/)
+   - Pro 和 Plus 用户将能够使用手机上的“工作”选项卡来完成代理任务
    - `TechCrunch AI · 2026-09-23`
 
-3. [YouTube 正在构建人工智能创作者工具，几乎可以为他们做所有事情](https://aihot.bt199.com/news/8909ad75f4c2/)
+3. [Anthropic 的生物实验室发现了一项与 Crispr 进行比较的发现](https://aihot.bt199.com/news/9652a479122b/)
+   - Anthropic 表示，其人工智能 Claude 已经“自主发现”了一种新的酶系统，类似于强大的基因编辑工具 Cris…
+   - `The Verge AI · 2026-09-23`
+
+4. [YouTube 正在构建人工智能创作者工具，几乎可以为他们做所有事情](https://aihot.bt199.com/news/8909ad75f4c2/)
    - 内容创作者的部分工作就是弄清楚如何将他们的作品呈现在大多数人面前。破解（或对抗）算法历来让创作者感到沮丧，但 YouTu…
    - `The Verge AI · 2026-09-23`
 
-4. [下载：印度智能眼镜的威胁和人工智能的万亿美元赌博](https://aihot.bt199.com/news/3f94f55217dd/)
+5. [下载：印度智能眼镜的威胁和人工智能的万亿美元赌博](https://aihot.bt199.com/news/3f94f55217dd/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。智能眼镜已经在印度造成严重破坏 当…
    - `MIT Tech Review · 2026-09-23`
 
-5. [OpenAI 在即将发布的公告之前任命了 Patreon 的关键高管](https://aihot.bt199.com/news/9767b09c228a/)
-   - OpenAI 聘请了三名前 Patreon 高管来为创作者制定产品战略。 13 年前创建创作者订阅平台后，联合创始人兼技…
-   - `The Verge AI · 2026-09-23`
-
-6. [圆桌会议：虚拟边界墙的致命失败](https://aihot.bt199.com/news/fbbb2f4877db/)
-   - 过去 25 年来，美国花费数十亿美元沿南部边境修建了监视塔“虚拟墙”，承诺这些塔将帮助发现和逮捕越境者并拯救生命。但麻省…
-   - `MIT Tech Review · 2026-09-22`
+6. [人工智能炒作指数：人工智能喜欢作弊](https://aihot.bt199.com/news/edaeeef0c798/)
+   - 振作起来：事实证明，人工智能正在针对作弊进行优化。 OpenAI 的特工侵入 Hugging Face 以获取网络安全测…
+   - `MIT Tech Review · 2026-09-23`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -99,7 +99,7 @@
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（400）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4513）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4521）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

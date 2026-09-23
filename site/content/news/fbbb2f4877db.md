@@ -20,7 +20,7 @@ ai_summary = "过去 25 年来，美国花费数十亿美元沿南部边境修�
 summary = "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives."
 summary_zh = "过去 25 年来，美国花费数十亿美元沿南部边境修建了监视塔“虚拟墙”，承诺这些塔将帮助发现和逮捕越境者并拯救生命。但麻省理工学院技术评论的一项开创性调查记录了超过一千人"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->
