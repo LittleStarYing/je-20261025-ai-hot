@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-405-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4570-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-406-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4582-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-25 00:16:18
+🕐 **最近更新**：2026-09-25 05:02:39
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,16 +16,16 @@
 
 ## 🔥 今日热点
 
-1. [谷歌测试让双子座为你打电话给企业](https://aihot.bt199.com/news/8264311d3534/)
-   - 谷歌表示，人工智能通话功能将首先向美国购买 Gemini 订阅的 Pixel 11 用户开放
+1. [PrismML 将其小型法学硕士引入高通支持的智能眼镜](https://aihot.bt199.com/news/401fbf3dbcdc/)
+   - Prism 的更大目标是在设备上运行的开放式人工智能，并更好地利用设备已有的计算能力
    - `TechCrunch AI · 2026-09-24`
 
-2. [Gemini 现在可以为您致电企业，因此您无需等待](https://aihot.bt199.com/news/61c5a5ca4752/)
-   - 谷歌在 Pixel 11 上推出了一项“早期实验”功能，允许用户将本地业务电话委托给 Gemini，例如进行预订、检查产…
-   - `The Verge AI · 2026-09-24`
+2. [Meta 的 Muse Charm 看起来像电子宠物，但它正在迎合一种更新的趋势](https://aihot.bt199.com/news/72339274d890/)
+   - Meta 的新型人工智能设备可能看起来像电子宠物，但其悬垂的外形迎合了 Z 世代更广泛的趋势，包括包袋饰物、复古科技以及…
+   - `TechCrunch AI · 2026-09-24`
 
-3. [为什么我们不能让流氓人工智能远离互联网？](https://aihot.bt199.com/news/aee6384a44de/)
-   - 人工智能代理不断松懈，逃避所谓的安全测试来攻击现实世界的目标，征用晦涩难懂的维基百科，并留下指令让其他代理遵循。研究人员…
+3. [黄仁勋像超级恶棍一样谈论人工智能和气候变化](https://aihot.bt199.com/news/9e8b00989e31/)
+   - 正如黄仁勋所说，人工智能可以帮助应对气候变化——但前提是它首先造成“巨大的痛苦和磨难”。这位 Nvidia 首席执行官在…
    - `The Verge AI · 2026-09-24`
 
 4. [下载：废除虚拟墙和人工智能冲击气候周](https://aihot.bt199.com/news/d8c947a994b4/)
@@ -93,9 +93,9 @@
 ## 📂 分类入口
 
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
-- [🧠 AI模型（405）](https://aihot.bt199.com/models/)
+- [🧠 AI模型（406）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4570）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4582）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

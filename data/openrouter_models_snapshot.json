@@ -254,7 +254,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/stealth/space-bunny-alpha/endpoints"
       },
@@ -1877,7 +1877,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/z-ai/glm-5.3-flashx-20260918/endpoints"
       },
@@ -4937,13 +4937,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000005",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.000000045",
+        "completion": "0.0000006",
+        "input_cache_read": "0.0000000285"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -6066,7 +6066,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
       },
@@ -16873,8 +16873,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.00001075",
+        "prompt": "0.00000135",
+        "completion": "0.0000115",
         "input_cache_read": "0.0000003"
       },
       "top_provider": {
@@ -18080,9 +18080,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000091263",
-        "completion": "0.00000182526",
-        "input_cache_read": "0.0000000760525"
+        "prompt": "0.000000868608",
+        "completion": "0.000001737216",
+        "input_cache_read": "0.000000072384"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -18238,9 +18238,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008246",
-        "completion": "0.00000016492",
-        "input_cache_read": "0.000000016492"
+        "prompt": "0.00000006706",
+        "completion": "0.00000013412",
+        "input_cache_read": "0.000000013412"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -19981,7 +19981,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/z-ai/glm-5v-turbo-20260401/endpoints"
       },
@@ -21351,7 +21351,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/z-ai/glm-5-turbo-20260315/endpoints"
       },
@@ -30275,7 +30275,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2025-01-31",
-      "expiration_date": "2027-03-15",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-flash-image/endpoints"
       },
@@ -34444,7 +34444,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2024-12-31",
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/z-ai/glm-4.5/endpoints"
       },
@@ -42692,5 +42692,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-24T16:15:13.401447+00:00"
+  "updated_at": "2026-09-24T21:01:46.543235+00:00"
 }

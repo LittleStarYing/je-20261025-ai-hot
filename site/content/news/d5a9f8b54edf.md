@@ -20,7 +20,7 @@ ai_summary = "据《纽约时报》早些时候报道，谷歌正准备发射一
 summary = "Google is getting ready to launch a satellite with its AI processors to test how well they perform in space, as reported earlier by The New York Times."
 summary_zh = "据《纽约时报》早些时候报道，谷歌正准备发射一颗搭载人工智能处理器的卫星，以测试它们在太空中的表现。此举是谷歌 Suncatcher 项目的一部分，该公司的实验性计划最终可能会将人工智能数据中心送入轨道。卫星"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

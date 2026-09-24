@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Stripe Managed Payments (SMP) 现已全面上线"
 summary_zh = ""
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

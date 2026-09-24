@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：216 # 评论：114"
 summary = "Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/ Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：216 # 评论：114"
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

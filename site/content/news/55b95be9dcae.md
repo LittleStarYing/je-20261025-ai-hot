@@ -20,7 +20,7 @@ ai_summary = "该报告表明，更多的曝光不会解决对该技术的不安
 summary = "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation."
 summary_zh = "该报告表明，更多的曝光不会解决对该技术的不安，也不会减少公众对人工智能监管的支持"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

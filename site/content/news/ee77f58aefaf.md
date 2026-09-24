@@ -20,7 +20,7 @@ ai_summary = "Ando 已从 Accel、Index Ventures 和 Emergence 等投资者那�
 summary = "Ando has raised $20 million in pre-seed and seed funding from investors including Accel, Index Ventures, and Emergence."
 summary_zh = "Ando 已从 Accel、Index Ventures 和 Emergence 等投资者那里筹集了 2000 万美元的种子前和种子资金"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->
