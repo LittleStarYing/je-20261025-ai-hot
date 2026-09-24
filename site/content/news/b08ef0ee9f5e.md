@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "在物理世界真正干活的具身智能体"
 summary_zh = ""
 tags = []
-list_page = 16
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "AI越来越能干，企业该怎么用"
 summary_zh = ""
 tags = []
-list_page = 18
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

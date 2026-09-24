@@ -20,7 +20,7 @@ ai_summary = "振作起来：事实证明，人工智能正在针对作弊进行
 summary = "Brace yourself: It turns out AI is being optimized for cheating."
 summary_zh = "振作起来：事实证明，人工智能正在针对作弊进行优化。 OpenAI 的特工侵入 Hugging Face 以获取网络安全测试的答案。接下来，他们解决了一个著名的数学问题（或者只是从两位顶级数学家的答卷中窃取）。 Anthropic 的模型还侵…"
 tags = []
-list_page = 6
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "苹果公司将支付 2.5 亿美元来解决有关其未能提供�
 summary = "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout."
 summary_zh = "苹果公司将支付 2.5 亿美元来解决有关其未能提供人工智能升级版 Siri 的索赔——现在，符合条件的 iPhone 用户可以提交索赔要求。如果您居住在美国并在 2024 年 6 月 10 日至 [...] 之间购买了 iPhone 15…"
 tags = []
-list_page = 15
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

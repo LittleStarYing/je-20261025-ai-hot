@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "闯关Cube任务，分享真实体验，赢取京东卡！点击查看原文>"
 summary_zh = ""
 tags = []
-list_page = 283
+list_page = 284
 +++
 
 <!-- AUTO-GENERATED: news page -->

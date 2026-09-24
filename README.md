@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-405-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4552-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-405-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4570-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-24 18:53:12
+🕐 **最近更新**：2026-09-25 00:16:18
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,43 +16,39 @@
 
 ## 🔥 今日热点
 
-1. [Meta 的 AI 代理 Muse 带来了一切新功能](https://aihot.bt199.com/news/a58dd3909ca1/)
-   - 周三，首席执行官马克·扎克伯格 (Mark Zuckerberg) 为公司在门洛帕克 (Menlo Park) 举行的年…
+1. [谷歌测试让双子座为你打电话给企业](https://aihot.bt199.com/news/8264311d3534/)
+   - 谷歌表示，人工智能通话功能将首先向美国购买 Gemini 订阅的 Pixel 11 用户开放
    - `TechCrunch AI · 2026-09-24`
 
-2. [Meta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备](https://aihot.bt199.com/news/b3b054f1bbc7/)
-   - 这款微型硬件设备为其人工智能代理 Muse 创建了另一个移动房屋
-   - `TechCrunch AI · 2026-09-24`
+2. [Gemini 现在可以为您致电企业，因此您无需等待](https://aihot.bt199.com/news/61c5a5ca4752/)
+   - 谷歌在 Pixel 11 上推出了一项“早期实验”功能，允许用户将本地业务电话委托给 Gemini，例如进行预订、检查产…
+   - `The Verge AI · 2026-09-24`
 
-3. [人工智能正在主导气候周的对话](https://aihot.bt199.com/news/148d6434756c/)
+3. [为什么我们不能让流氓人工智能远离互联网？](https://aihot.bt199.com/news/aee6384a44de/)
+   - 人工智能代理不断松懈，逃避所谓的安全测试来攻击现实世界的目标，征用晦涩难懂的维基百科，并留下指令让其他代理遵循。研究人员…
+   - `The Verge AI · 2026-09-24`
+
+4. [下载：废除虚拟墙和人工智能冲击气候周](https://aihot.bt199.com/news/d8c947a994b4/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一位国会代表刚刚提议终止美国的边境塔…
+   - `MIT Tech Review · 2026-09-24`
+
+5. [人工智能正在主导气候周的对话](https://aihot.bt199.com/news/148d6434756c/)
    - 本周，世界各国领导人齐聚曼哈顿参加联合国大会。这也是纽约气候周——投资者、政策制定者、倡导者和记者在小组讨论、会谈和豪华…
    - `MIT Tech Review · 2026-09-24`
 
-4. [谷歌 DeepMind 新任负责人表示，Gemini 4 即将准备就绪](https://aihot.bt199.com/news/fc26726d9b3c/)
-   - 据报道，谷歌在旗舰人工智能版本上落后于竞争对手开发商之后，即将推出期待已久的 Gemini 4 型号。 Koray Ka…
-   - `The Verge AI · 2026-09-24`
-
-5. [Meta 正在制作独立的 Muse AI 小工具](https://aihot.bt199.com/news/03e6d597d8c7/)
-   - Meta 正在为其新的 Muse AI 代理构建专用硬件设备。 Meta 首席执行官马克·扎克伯格在今晚 Meta Co…
-   - `The Verge AI · 2026-09-24`
-
-6. [下载：印度智能眼镜的威胁和人工智能的万亿美元赌博](https://aihot.bt199.com/news/3f94f55217dd/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。智能眼镜已经在印度造成严重破坏 当…
-   - `MIT Tech Review · 2026-09-23`
-
-7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [微软破坏了人工智能辅助平台，导致 12,000 人受到威胁](https://aihot.bt199.com/news/90435c878e92/)
+8. [微软破坏了人工智能辅助平台，导致 12,000 人受到威胁](https://aihot.bt199.com/news/90435c878e92/)
    - EvilTokens 提供了一个端到端平台，使大规模妥协更快、更容易
    - `Ars Technica AI · 2026-09-22`
 
-10. [Meta 的特权人工智能助手 Muse 存在严重的 0day](https://aihot.bt199.com/news/64b9f3c8af56/)
+9. [Meta 的特权人工智能助手 Muse 存在严重的 0day](https://aihot.bt199.com/news/64b9f3c8af56/)
    - 简单的 ClickFix 攻击只是完全劫持新代理的一种方法
    - `Ars Technica AI · 2026-09-21`
 
@@ -99,7 +95,7 @@
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
 - [🧠 AI模型（405）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4552）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4570）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

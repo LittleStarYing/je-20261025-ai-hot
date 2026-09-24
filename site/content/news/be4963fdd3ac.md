@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "通过Meeting Flow让实时智能融入会议与商务沟通场景"
 summary_zh = ""
 tags = []
-list_page = 245
+list_page = 247
 +++
 
 <!-- AUTO-GENERATED: news page -->
