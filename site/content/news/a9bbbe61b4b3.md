@@ -20,7 +20,7 @@ ai_summary = "但也许最大的启示是，人类并没有让克劳德在其生
 summary = "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop."
 summary_zh = "但也许最大的启示是，人类并没有让克劳德在其生物实验室里肆意妄为。到目前为止，人类仍然处于循环之中"
 tags = []
-list_page = 2
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

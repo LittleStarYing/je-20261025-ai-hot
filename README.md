@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-404-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4534-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-405-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4552-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-24 10:29:00
+🕐 **最近更新**：2026-09-24 18:53:12
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,20 +24,20 @@
    - 这款微型硬件设备为其人工智能代理 Muse 创建了另一个移动房屋
    - `TechCrunch AI · 2026-09-24`
 
-3. [Meta 正在制作独立的 Muse AI 小工具](https://aihot.bt199.com/news/03e6d597d8c7/)
+3. [人工智能正在主导气候周的对话](https://aihot.bt199.com/news/148d6434756c/)
+   - 本周，世界各国领导人齐聚曼哈顿参加联合国大会。这也是纽约气候周——投资者、政策制定者、倡导者和记者在小组讨论、会谈和豪华…
+   - `MIT Tech Review · 2026-09-24`
+
+4. [谷歌 DeepMind 新任负责人表示，Gemini 4 即将准备就绪](https://aihot.bt199.com/news/fc26726d9b3c/)
+   - 据报道，谷歌在旗舰人工智能版本上落后于竞争对手开发商之后，即将推出期待已久的 Gemini 4 型号。 Koray Ka…
+   - `The Verge AI · 2026-09-24`
+
+5. [Meta 正在制作独立的 Muse AI 小工具](https://aihot.bt199.com/news/03e6d597d8c7/)
    - Meta 正在为其新的 Muse AI 代理构建专用硬件设备。 Meta 首席执行官马克·扎克伯格在今晚 Meta Co…
    - `The Verge AI · 2026-09-24`
 
-4. [Muse 即将登陆 Meta 智能眼镜](https://aihot.bt199.com/news/9dbc39a8f74b/)
-   - 推出 Muse 几周后，Meta 宣布正在“致力于”将该代理引入其智能眼镜，包括在 Meta Connect 上推出的新…
-   - `The Verge AI · 2026-09-23`
-
-5. [下载：印度智能眼镜的威胁和人工智能的万亿美元赌博](https://aihot.bt199.com/news/3f94f55217dd/)
+6. [下载：印度智能眼镜的威胁和人工智能的万亿美元赌博](https://aihot.bt199.com/news/3f94f55217dd/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。智能眼镜已经在印度造成严重破坏 当…
-   - `MIT Tech Review · 2026-09-23`
-
-6. [人工智能炒作指数：人工智能喜欢作弊](https://aihot.bt199.com/news/edaeeef0c798/)
-   - 振作起来：事实证明，人工智能正在针对作弊进行优化。 OpenAI 的特工侵入 Hugging Face 以获取网络安全测…
    - `MIT Tech Review · 2026-09-23`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -97,9 +97,9 @@
 ## 📂 分类入口
 
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
-- [🧠 AI模型（404）](https://aihot.bt199.com/models/)
+- [🧠 AI模型（405）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4534）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4552）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

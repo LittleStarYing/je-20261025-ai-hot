@@ -20,7 +20,7 @@ ai_summary = "StrictlyVC 加入 TechCrunch Disrupt 2026，讨论人工智能带�
 summary = "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI."
 summary_zh = "StrictlyVC 加入 TechCrunch Disrupt 2026，讨论人工智能带来的不断变化的风险投资格局。获取您的投资者通行证来参加这个独家会议。 9 月 25 日晚上 11:59 之前可节省 200 美元PT"
 tags = []
-list_page = 3
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

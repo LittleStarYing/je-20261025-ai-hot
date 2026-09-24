@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：154 # 评论：79"
 summary = "Article URL: https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/ Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：154 # 评论：79"
 tags = []
-list_page = 11
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

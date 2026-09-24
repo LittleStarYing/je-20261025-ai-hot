@@ -7621,6 +7621,28 @@
     "collected_at": "2026-09-16T20:43:31.702489"
   },
   {
+    "id": "github-1385230825",
+    "name": "adishuklaa/ai-kyc-aml-assistant",
+    "display_name": "ai-kyc-aml-assistant",
+    "url": "https://github.com/adishuklaa/ai-kyc-aml-assistant",
+    "description": "An AI-assisted compliance dashboard for accelerating customer onboarding, featuring automated document verification and PEP/sanctions risk screening workflows.",
+    "stars": 13,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "aml",
+      "artificial-intelligence",
+      "compliance",
+      "kyc",
+      "regtech"
+    ],
+    "created_at": "2026-09-24T10:12:46Z",
+    "updated_at": "2026-09-24T10:51:09Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-24T10:51:17.296614"
+  },
+  {
     "id": "github-1201246330",
     "name": "ihabkhaled/ClawAI",
     "display_name": "ClawAI",
@@ -12327,6 +12349,27 @@
     "license": "MIT",
     "source": "github-search",
     "collected_at": "2026-09-23T10:33:39.189232"
+  },
+  {
+    "id": "github-1348914714",
+    "name": "boquila/montgomery",
+    "display_name": "montgomery",
+    "url": "https://github.com/boquila/montgomery",
+    "description": "Computer vision AI training in any GPU",
+    "stars": 7,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "artificial-intelligence",
+      "cli",
+      "computer-vision",
+      "rust"
+    ],
+    "created_at": "2026-08-27T20:27:00Z",
+    "updated_at": "2026-09-21T03:41:10Z",
+    "license": "AGPL-3.0",
+    "source": "github-search",
+    "collected_at": "2026-09-24T10:51:17.296632"
   },
   {
     "id": "github-1213064866",
