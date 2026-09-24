@@ -20,7 +20,7 @@ ai_summary = "Pro 和 Plus 用户将能够使用手机上的“工作”选项�
 summary = "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks."
 summary_zh = "Pro 和 Plus 用户将能够使用手机上的“工作”选项卡来完成代理任务"
 tags = []
-list_page = 1
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

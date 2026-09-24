@@ -2,11 +2,11 @@
 
 > GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
-[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-400-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4521-red)](https://aihot.bt199.com/news/)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-175-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-404-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-77-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-4534-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-24 04:57:45
+🕐 **最近更新**：2026-09-24 10:29:00
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [Enveda 获得 3.11 亿美元融资，将更多源自自然的人工智能药物纳入临床试验](https://aihot.bt199.com/news/237e7ef9dd42/)
-   - 该轮融资对这家 AI 生物技术公司的估值为 20 亿美元。目前，该公司正在测试治疗皮肤病并在停用 GLP-1 后保持体重…
-   - `TechCrunch AI · 2026-09-23`
+1. [Meta 的 AI 代理 Muse 带来了一切新功能](https://aihot.bt199.com/news/a58dd3909ca1/)
+   - 周三，首席执行官马克·扎克伯格 (Mark Zuckerberg) 为公司在门洛帕克 (Menlo Park) 举行的年…
+   - `TechCrunch AI · 2026-09-24`
 
-2. [ChatGPT 移动应用获得基于语音的代理功能](https://aihot.bt199.com/news/3ecdce7d836a/)
-   - Pro 和 Plus 用户将能够使用手机上的“工作”选项卡来完成代理任务
-   - `TechCrunch AI · 2026-09-23`
+2. [Meta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备](https://aihot.bt199.com/news/b3b054f1bbc7/)
+   - 这款微型硬件设备为其人工智能代理 Muse 创建了另一个移动房屋
+   - `TechCrunch AI · 2026-09-24`
 
-3. [Anthropic 的生物实验室发现了一项与 Crispr 进行比较的发现](https://aihot.bt199.com/news/9652a479122b/)
-   - Anthropic 表示，其人工智能 Claude 已经“自主发现”了一种新的酶系统，类似于强大的基因编辑工具 Cris…
-   - `The Verge AI · 2026-09-23`
+3. [Meta 正在制作独立的 Muse AI 小工具](https://aihot.bt199.com/news/03e6d597d8c7/)
+   - Meta 正在为其新的 Muse AI 代理构建专用硬件设备。 Meta 首席执行官马克·扎克伯格在今晚 Meta Co…
+   - `The Verge AI · 2026-09-24`
 
-4. [YouTube 正在构建人工智能创作者工具，几乎可以为他们做所有事情](https://aihot.bt199.com/news/8909ad75f4c2/)
-   - 内容创作者的部分工作就是弄清楚如何将他们的作品呈现在大多数人面前。破解（或对抗）算法历来让创作者感到沮丧，但 YouTu…
+4. [Muse 即将登陆 Meta 智能眼镜](https://aihot.bt199.com/news/9dbc39a8f74b/)
+   - 推出 Muse 几周后，Meta 宣布正在“致力于”将该代理引入其智能眼镜，包括在 Meta Connect 上推出的新…
    - `The Verge AI · 2026-09-23`
 
 5. [下载：印度智能眼镜的威胁和人工智能的万亿美元赌博](https://aihot.bt199.com/news/3f94f55217dd/)
@@ -97,9 +97,9 @@
 ## 📂 分类入口
 
 - [🛠️ AI工具（175）](https://aihot.bt199.com/tools/)
-- [🧠 AI模型（400）](https://aihot.bt199.com/models/)
+- [🧠 AI模型（404）](https://aihot.bt199.com/models/)
 - [🤖 AI Agent（77）](https://aihot.bt199.com/agents/)
-- [📰 AI新闻（4521）](https://aihot.bt199.com/news/)
+- [📰 AI新闻（4534）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（59）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

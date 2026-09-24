@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-23T20:56:57.281279",
-  "date": "2026-09-23",
+  "updated_at": "2026-09-24T02:28:17.289803",
+  "date": "2026-09-24",
   "spotlight": {
-    "id": "crewai",
-    "name": "CrewAI",
-    "url": "https://crewai.com",
+    "id": "ollama",
+    "name": "Ollama",
+    "url": "https://ollama.com",
     "type": "tool",
-    "description": "多 Agent 协作框架，简单易用",
-    "pricing": "开源 + 企业版",
-    "category": "Agent"
+    "description": "本地运行大模型的最简单方式",
+    "pricing": "开源免费",
+    "category": "本地模型"
   },
   "alternates": [
     {
-      "name": "Flowise",
-      "url": "https://github.com/FlowiseAI/Flowise",
+      "name": "Goose",
+      "url": "https://github.com/aaif-goose/goose",
       "type": "agent",
-      "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
-      "pricing": "开源 + Cloud",
-      "category": "平台 Agent"
-    },
-    {
-      "name": "Cc Switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "type": "agent",
-      "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
+      "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
       "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "id": "gamma",
-      "name": "Gamma",
-      "url": "https://gamma.app",
+      "name": "Awesome Openclaw Skills",
+      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "type": "agent",
+      "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
+      "pricing": "开源免费",
+      "category": "助手 Agent"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
       "type": "tool",
-      "description": "AI 一键生成 PPT/演示文稿",
-      "pricing": "免费 + Plus $10/月",
+      "description": "Google 出品的 AI 笔记/知识管理工具",
+      "pricing": "免费",
       "category": "办公"
     }
   ]

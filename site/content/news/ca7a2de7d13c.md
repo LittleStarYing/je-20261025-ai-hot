@@ -20,7 +20,7 @@ ai_summary = "Ema 迄今已筹集 1.4 亿美元，拥有 50 多家企业客户�
 summary = "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft."
 summary_zh = "Ema 迄今已筹集 1.4 亿美元，拥有 50 多家企业客户，其中包括谷歌和微软"
 tags = []
-list_page = 2
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->
