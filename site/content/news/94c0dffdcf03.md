@@ -20,7 +20,7 @@ ai_summary = "又到了 Meta 一年一度的 9 月产品发布会，The Verge �
 summary = "It's time once again for Meta's annual September product launch event, and The Verge is on the ground in Menlo Park to cover the show live."
 summary_zh = "又到了 Meta 一年一度的 9 月产品发布会，The Verge 来到门洛帕克现场直播该展会。 Meta 表示，马克·扎克伯格今天的主题演讲将是关于“Meta 如何为每个人构建未来”——他在最近的一篇文章中详细阐述了这一点 [&"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-09-24T21:01:46.723701",
-  "date": "2026-09-24",
+  "updated_at": "2026-09-25T02:44:50.237234",
+  "date": "2026-09-25",
   "spotlight": {
-    "id": "ollama",
-    "name": "Ollama",
-    "url": "https://ollama.com",
+    "id": "lmstudio",
+    "name": "LM Studio",
+    "url": "https://lmstudio.ai",
     "type": "tool",
-    "description": "本地运行大模型的最简单方式",
-    "pricing": "开源免费",
+    "description": "本地大模型 GUI 工具，界面友好",
+    "pricing": "免费",
     "category": "本地模型"
   },
   "alternates": [
     {
-      "name": "Goose",
-      "url": "https://github.com/aaif-goose/goose",
+      "name": "Plandex",
+      "url": "https://github.com/plandex-ai/plandex",
       "type": "agent",
-      "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
-      "pricing": "开源免费",
+      "description": "面向大型项目的开源AI编码Agent，终端内全自主开发",
+      "pricing": "开源 + API费用",
       "category": "编程 Agent"
     },
     {
-      "name": "Awesome Openclaw Skills",
-      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "name": "Vibetest Use",
+      "url": "https://github.com/browser-use/vibetest-use",
       "type": "agent",
-      "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
+      "description": "基于 Browser-Use Agent 的自动化 QA 测试工具，通过 MCP 帮助 AI 自动执行网页测试。",
       "pricing": "开源免费",
-      "category": "助手 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "id": "notebooklm",
-      "name": "NotebookLM",
-      "url": "https://notebooklm.google.com",
+      "id": "dify",
+      "name": "Dify",
+      "url": "https://dify.ai",
       "type": "tool",
-      "description": "Google 出品的 AI 笔记/知识管理工具",
-      "pricing": "免费",
-      "category": "办公"
+      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用",
+      "pricing": "开源 + 云服务",
+      "category": "Agent"
     }
   ]
 }
